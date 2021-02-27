@@ -1,45 +1,27 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Nick Lennon - Drummer
 
-Welcome USER_NAME,
+Nick Lennon (from here on will be referred to as the “client”) is a musician who offers services, including live music performance, recording sessions and tutoring, to all clients who have an interest in creating, listening to or learning how to play live music. This website is based on my own previous work before taking up coding as it is an area I am very familiar with and completely understand the needs of the client and the user.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute. The main requirements of this project are to create a responsive website with a minimum of three pages using HTML5 and CSS3.
+ 
+## UX
+### Project Goals
+* To produce a well-designed and engaging website to advertise all services in the most efficient way possible
+* To make it easy for users to navigate and access all the information they need.
+* To allow users to learn more about the client and their experience.
+* To enable users to contact the clientTo showcase the clients abilities	 
+* To maintain a clean and professional image at all times
+* To enable users to contact the client
 
-## Gitpod Reminders
+### Business Goals
+- Increase social media following
+- To improve user engagement with the brand
+- Attract new students
+- Encourage musicians and recruiters to get in touch about future work projects
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
+* As a potential student, I want to find information on the client’s lessons, the client’s experience, see previous student testimonials and view examples of the lesson content to help me establish if the client is a good teacher, to encourage me to get in touch if I have any questions and to sign up for lessons
+* As a musician/potential collaborator, I want to see the client’s previous work/performances, experience, training and client’s testimonials to allow me to decide if I want to work with them in the future and then to find easy ways to contact them.
+* As a fan who saw the client perform, I want to find more information about the client including what their latest music or video is, pictures of client and pervious performances, links to clients current projects, when their next show is, links to buy tickets and to connect with their social networks.
+* As an agent/recruiter/potential employer, I want to see information about the client’s training and experience as well as be able to view performances to establish the client’s playing ability and then download the latest version of their basic CV before having an easy way to get in touch.
 
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
