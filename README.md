@@ -45,7 +45,7 @@ This is the first of four Milestone Projects that make up the Full Stack Web Dev
 ## User Demographic
 The target demographics for this web site are:
 - Potential Students,
-- Fellow Musician or Potential Collaborators,
+- Fellow Musicians or Potential Collaborators,
 - Fans of Nick Lennon,
 - Agents,Recruiters or Potential Employers,
 
@@ -54,7 +54,7 @@ The target demographics for this web site are:
 - As a **Potential Student** I want to find information on the client’s lessons, the client’s experience, see previous student testimonials and view examples of the lesson content to help me establish if the client is a good teacher, to encourage me to get in touch if I have any questions and to sign up for lessons
 - As a **Musician/Potential Collaborator**, I want to see the client’s previous work/performances, experience and training to allow me to decide if I want to work with them in the future and then to find easy ways to contact them.
 - As a **Fan** who saw the client perform, I want to find more information about the client including what their latest music or video is, pictures of client and pervious performances, links to clients current projects, when their next show is, links to buy tickets and to connect with their social networks.
-- As an **Agent,Recruiter or Potential Employer**, I want to see information about the client’s training and experience as well as be able to view performances to establish the client’s playing ability and be able to download a copy of the information for future referance, before having an easy way to get in touch.
+- As an **Agent,Recruiter or Potential Employer**, I want to see information about the client’s training and experience as well as be able to view performances to establish the client’s playing ability and be able to download a copy of the information for future reference, before having an easy way to get in touch.
 
 [Back to top](#nick-lennon---drummer)
 
@@ -96,7 +96,11 @@ The website needs to enable the **CLIENT** to:
     - Encourage users to contact the client about future work
     - Promote future performances
 
+I performed a Importance-Viability analysis on the clients needs to ensure that they were both important enough to need to be taken into consideration with this project but also to ensure that they are viable to do with all factors considered. The results look like this:
+
 ![Importance Viability Graph](assets/readme-assets/importance-viability-graph-min.png "Importance Viability Graph")
+
+As you can see all goals set out are viable and important enough to be included.
 
 [Back to top](#nick-lennon---drummer)
 
@@ -116,16 +120,20 @@ A scope was defined to identify what needed to be included in the project to com
     - Description of drum lesson services
     - Drum lesson example video with accompanying PDF download
     - Call to action to get in contact in regards to lessons and project enquires
-    - Links to social media accounts
     - Mailing list sign up form
+    - Provides contact information
 
 **Functionality Requirements**
 
     - Easy navigation to the required information
     - Quick loading of the website
-    - Links to external websites (including ticket sales, youtube for other videos and soundcloud/spotify to listen to music)
-    - Provides contact information
+    - Links to:
+        - external websites for ticket sales and to purchase music
+        - social media accounts
+        - media sites (youtube for other videos and soundcloud/spotify to listen to music))
     - Mailing list sign up form
+    - Links to social media accounts
+    
 
 [Back to top](#nick-lennon---drummer)
 
@@ -158,10 +166,10 @@ Here is a diagram of the page structures.
 
 In the footer **(linked to from the "Contact" in the Header element)** of every page there is:
 
-    - Links to social media accounts
-    - Contact information
-    - Mailing list sign up form
-    - Site map (desktop only)
+- Links to social media accounts
+- Contact information
+- Mailing list sign up form
+- Site map (desktop only)
 
 [Back to top](#nick-lennon---drummer)
 
@@ -169,7 +177,9 @@ In the footer **(linked to from the "Contact" in the Header element)** of every 
 
 ## Skeleton
 
-Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two processes seperatly, enabling each area to be tailored to the users requirements.
+Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two processes seperatly, enabling each area to be tailored to the users requirements. 
+
+Throught out the design phase some elements of the design changed to allow for a better user experience.
 
 Full Original Balsamiq Wireframe:
 ![Home Page Wireframe](assets/readme-assets/ms1-wireframe-complete-balsamiq-min.png "Balsamiq Wireframe")
@@ -193,38 +203,38 @@ Lessons Page (Figma):
 # Design
 
 ## Colour Scheme
-The main colours used throughout the website are a mixture of Black, White, Blue and Peach.
+The main colours used throughout the website are a mixture of Blue primarily with Black, Sivler, White and Peach highlights.
 
-The chosen colour scheme is to give the website a modern feel that will appeal to the wide demographic.
+The chosen colour scheme is to give the website a modern and friendly feel that will appeal to the wide demographic.
 
 ## Typography
 Using the fonts fonts [Manrope](https://fonts.google.com/specimen/Manrope "Link to Manrope Google Font") and [Lato](https://fonts.google.com/specimen/Lato "Link to Lato Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
 ## Imagery
 The images used are all appropriate to the website and are vibrant and engaguing. Video ave been used to reduce the amount of text required in some sections.
-All imagery provides alternative text to be used in the event that the element cannot be rendered or if the user is using a screen reader
+All imagery has alternative text this is used if the user is using a screen reader or if the image doesn't load.
 
 [Back to top](#nick-lennon---drummer)
 # Features
 
 ### Header 
-- Company logo - establishes the website identity and doubles as the home button for the phone breakpoint
-- Navbar links with logo (which have the labels appearing on focus from the Desktop breakpoint upwards)
+- Company logo - establishes the website identity and doubles as the home button for only the phone breakpoint
+- Navbar links with icons (which have the labels appearing on focus from the desktop breakpoint)
 ### Footer
 - Footer  doubles as contact information (until contact page is implimented on next release)
-- Sign Up For Newsletter (not currently linked to a mailing server will be implemented on next release)
-- Site Map (only on Desktop breakpoint)
+- Sign Up For Newsletter (not currently linked to a mailing server but it will be implemented on next release)
+- Site Map (only on Desktop breakpoint) to allow easier easier acces to specific information and some exploration
 ### index.html
-- Hero Image - A strong image to welcome the user to the website while 
+- Hero Image - A strong image to welcome the user to the website while confirlming where the user has arrived at
 - What I Do - quick navigation to the secondary topics of information
-- Gallary - Give the user a brief visual insite into the clients experience
+- Gallary - Gives the user a brief visual insite into the clients experience
 - Upcoming Performances - Future performance details with links to ticket sales websites
 - Live Performance Video - showcases a previous performance to encourage the user to buy tickets
 ### about-me.html
-- About Me - Profile picture with biography to give indepth information about the clients background in their field
-- Career highlights - A vertical timeline to give the user an overview of the important points from the clients experience if they don't want to read the biography
-- Studio Credits - Cover art of previous recording work. Each images will link to spotify to allow you to listen to the music. Images have a hover feature to show the name of the song for the Desktop breakpoint. Audio samples are also avaliable underneath the album images using Soundcloud.
-- Basic CV Download - A stripped down CV to allow recruiters to retain a copy of it for future reference
+- About Me - Profile picture with biography to give in depth information about the clients background in their field
+- Career highlights - A timeline element to give the user an overview of the important points from the clients career if they don't want to read the biography
+- Studio Credits - Cover art of previous recording work. Each images will link to spotify to allow the user to listen to the music. Images have a hover feature to show the name of the song for the desktop breakpoint. Audio samples are also avaliable underneath the album images using Soundcloud.
+- Basic CV Download - A stripped down CV PDF download to allow recruiters to retain a copy of it for future reference
 ### lessons.html
 - Lesson Video Advert - A short advert for the clients tutoring service. The video plays but muted to draw the user in but all the important information is displayed on the screen in text.
 - Lessons Overview - A revision of the main points from the video with clear icons to enable faster understanding
@@ -235,6 +245,8 @@ All imagery provides alternative text to be used in the event that the element c
 * Why take Up Drumming - A section to inform the user about the many positive aspects to learning how to play the drums
 * Endorses Section - A section to inform the user about what products the client uses therefore encouraging the potential student or fellow musician to use the same product which could lead to opening avenues for company collaborations
 * Contact page - A new page with several contact options
+* Mailing server - For the mailing list sign up and subscription to newsletter
+* Online store - To give the client the ability to sell merchandise and music directly to the user
 
 [Back to top](#nick-lennon---drummer)
 
@@ -246,8 +258,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Bootstrap v4.3.1
 - Google Chrome Dev tools for debugging
 - Google Light house for audits
-- Tiny Png for condensing images
-- Fontawesome and Phosphor Icons were used for the icons throughout (https://fontawesome.com/ https://phosphoricons.com/)
+- Tiny Png to condense images
 - Original wireframes were created with Balsamiq and Figma (https://balsamiq.com/, https://www.figma.com/)
 
 [Back to top](#nick-lennon---drummer)
@@ -272,7 +283,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 ## Content
 
-All content on this site is original
+All text content on this site is original to the project.
+
+Fontawesome and Phosphor Icons were used for the icons throughout (https://fontawesome.com/ https://phosphoricons.com/)
 
 [Back to top](#nick-lennon---drummer)
 
@@ -294,5 +307,6 @@ Venues:
 
 ## Acknowledgements
 Readme template used to produce this documentation is from https://github.com/Code-Institute-Solutions/readme-template
+with additional guidance taken from https://github.com/nemixu/Milestone1/blob/master/README.md and https://github.com/rebeccatraceyt/KryanLive.
 
 [Back to top](#nick-lennon---drummer)
