@@ -179,7 +179,9 @@ In the footer **(linked to from the "Contact" in the Header element)** of every 
 
 Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two processes seperatly, enabling each area to be tailored to the users requirements. 
 
-Throught out the design phase some elements of the design changed to allow for a better user experience.
+Throught out the design phase some elements of the design changed to allow for a better user experience. 
+
+I was unable to represent some UI features on the wireframes due to Figma limitations.
 
 Full Original Balsamiq Wireframe:
 ![Home Page Wireframe](assets/readme-assets/ms1-wireframe-complete-balsamiq-min.png "Balsamiq Wireframe")
@@ -228,7 +230,7 @@ All imagery has alternative text this is used if the user is using a screen read
 - Hero Image - A strong image to welcome the user to the website while confirlming where the user has arrived at
 - What I Do - quick navigation to the secondary topics of information
 - Gallary - Gives the user a brief visual insite into the clients experience
-- Upcoming Performances - Future performance details with links to ticket sales websites
+- Upcoming Performances - Future performance details with links to ticket sales websites with a hover feature at the desktop breakpoint to reveal an image of the performance venue behind the card
 - Live Performance Video - showcases a previous performance to encourage the user to buy tickets
 ### about-me.html
 - About Me - Profile picture with biography to give in depth information about the clients background in their field
