@@ -1,7 +1,7 @@
 # Nick Lennon - Drummer
 
 
-![Preview](assets/readme-assets/ms1-phone-figma-wireframe.png)
+![Preview](assets/readme-assets/website-mockup.png)
 
 [Link to the Live Project](https://"#"/)
 
@@ -83,6 +83,8 @@ The website needs to enable the **CLIENT** to:
     - Encourage users to contact the client about future work
     - Promote future performances
 
+![Importance Viability Graph](assets/readme-assets/importance-viability-graph-min.png "Importance Viability Graph")
+
 ### Scope
 A scope was defined to identify what needed to be included in the project to complete the goals defined in the strategy section.
 
@@ -114,7 +116,7 @@ This website is organised using a **Tree** structure hireracy to reduce complexi
 
 Here is a diagram of the page structures.
 
-![Link to the page structure image](assets/readme-assets/website-structure.png)
+![Link to the page structure image](assets/readme-assets/website-structure-min.png)
 
 #### Reasoning for the page structuring
 **index.html** *(linked to from Logo)*. Decided on element order of:
@@ -142,24 +144,24 @@ In the footer **(linked to from the "Contact" in the Header element)** of every 
 
 ### Skeleton
 
-Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two elements seperatly, enabling wach area to be tailored to the users requirements.
+Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two processes seperatly, enabling each area to be tailored to the users requirements.
 
-Balsamiq:
-![Home Page Wireframe](assets/readme-assets/ms1-wireframe-complete-balsamiq.png "Balsamiq Wireframe")
+Full Original Balsamiq Wireframe:
+![Home Page Wireframe](assets/readme-assets/ms1-wireframe-complete-balsamiq-min.png "Balsamiq Wireframe")
 <hr>
 
-Mobile (Figma):
-![Mobile Wireframe](assets/readme-assets/ms1-phone-figma-wireframe.png "Mobile Wireframe")
-
-<hr>
-
-Tablet (Figma):
-![Tablet Wireframe](assets/readme-assets/ms1-tablet-figma-wireframe.png "Tablet Wireframe")
+Index Page (Figma):
+![Index Wireframe](assets/readme-assets/index.html-min.png "Index Wireframe")
 
 <hr>
 
-Desktop (Figma):
-![Desktop Wireframe](assets/readme-assets/ms1-desktop-figma-index.html.png "Desktop Wireframe")
+About Me Page (Figma):
+![About Me Wireframe](assets/readme-assets/about-me.html-min.png "About Me Wireframe")
+
+<hr>
+
+Lessons Page (Figma):
+![Lessons Wireframe](assets/readme-assets/lessons.html-min.png "Lessons Wireframe")
 
 <hr>
 
