@@ -1,16 +1,29 @@
 # Nick Lennon - Drummer
 
-
-![Preview](assets/readme-assets/website-mockup.png)
+![Preview](assets/readme-assets/website-mockup-min.png)
 
 [Link to the Live Project](https://"#"/)
 
-# Table of contents
+# Table of Contents
 
+1. [Introduction](#introduction)
+2. [UX](#ux)
+3. [Development Planes](#development-planes)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+4. [Design](#design)
+5. [Features](#features)
+6. [Technologies Used](#technologies-used)
+7. [Testing](#testing)
+8. [Deployment](#deployment)
+9. [Bugs and Issues](#bugs-and-issues)
+10. [Credits](#credits)
 
 ***
 
-##  Introduction
+#  Introduction
 
 This website has been designer for the **Drummer Nick Lennon** (from here on will be referred to as the “client”) who is a musician who offers services, including **live music performance, recording sessions and tutoring**, to all clients who have an interest in creating, listening to or learning how to play live music. 
 
@@ -18,7 +31,7 @@ This website is based on my own previous work, with some fictitious information 
 
 This is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute. The main requirements of this project are to create a responsive and static website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
-<br>
+[Back to top](#nick-lennon---drummer)
 
 # UX
 ### Project Goals
@@ -43,10 +56,10 @@ The target demographics for this web site are:
 - As a **Fan** who saw the client perform, I want to find more information about the client including what their latest music or video is, pictures of client and pervious performances, links to clients current projects, when their next show is, links to buy tickets and to connect with their social networks.
 - As an **Agent,Recruiter or Potential Employer**, I want to see information about the client’s training and experience as well as be able to view performances to establish the client’s playing ability and be able to download a copy of the information for future referance, before having an easy way to get in touch.
 
-<hr>
+[Back to top](#nick-lennon---drummer)
 
-## Development Planes
-### Strategy
+# Development Planes
+## Strategy
 The website will focus on the following user attributes:
 
 **Demographics**
@@ -85,7 +98,11 @@ The website needs to enable the **CLIENT** to:
 
 ![Importance Viability Graph](assets/readme-assets/importance-viability-graph-min.png "Importance Viability Graph")
 
-### Scope
+[Back to top](#nick-lennon---drummer)
+
+<hr>
+
+## Scope
 A scope was defined to identify what needed to be included in the project to complete the goals defined in the strategy section.
 
 **Content Requirements**
@@ -110,7 +127,11 @@ A scope was defined to identify what needed to be included in the project to com
     - Provides contact information
     - Mailing list sign up form
 
-### Structure
+[Back to top](#nick-lennon---drummer)
+
+<hr>
+
+## Structure
 
 This website is organised using a **Tree** structure hireracy to reduce complexiy and make user navigation easier while allowing for a small amount of user exploring to discover information they didn't initially come to the website for.
 
@@ -118,7 +139,7 @@ Here is a diagram of the page structures.
 
 ![Link to the page structure image](assets/readme-assets/website-structure-min.png)
 
-#### Reasoning for the page structuring
+## Reasoning for the page structuring
 **index.html** *(linked to from Logo)*. Decided on element order of:
 1.	Hero image with name – to confirm identity of website and create a nice landing page,
 2.	What I do – to allow quick and easy navigation to desired information while informing new visitors about the client's services.
@@ -142,7 +163,11 @@ In the footer **(linked to from the "Contact" in the Header element)** of every 
     - Mailing list sign up form
     - Site map (desktop only)
 
-### Skeleton
+[Back to top](#nick-lennon---drummer)
+
+<hr>
+
+## Skeleton
 
 Wireframes were created in Balsamiq and Figma. Balsamiq was used to design the basic structure and Figma for the design elements. This system was used to focus on the two processes seperatly, enabling each area to be tailored to the users requirements.
 
@@ -163,25 +188,23 @@ About Me Page (Figma):
 Lessons Page (Figma):
 ![Lessons Wireframe](assets/readme-assets/lessons.html-min.png "Lessons Wireframe")
 
-<hr>
+[Back to top](#nick-lennon---drummer)
 
-### Design
+# Design
 
-#### Colour Scheme
+## Colour Scheme
 The main colours used throughout the website are a mixture of Black, White, Blue and Peach.
 
 The chosen colour scheme is to give the website a modern feel that will appeal to the wide demographic.
 
-#### Typography
+## Typography
 Using the fonts fonts [Manrope](https://fonts.google.com/specimen/Manrope "Link to Manrope Google Font") and [Lato](https://fonts.google.com/specimen/Lato "Link to Lato Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
 
-#### Imagery
+## Imagery
 The images used are all appropriate to the website and are vibrant and engaguing. Video ave been used to reduce the amount of text required in some sections.
 All imagery provides alternative text to be used in the event that the element cannot be rendered or if the user is using a screen reader
 
-
-<br>
-
+[Back to top](#nick-lennon---drummer)
 # Features
 
 ### Header 
@@ -213,7 +236,9 @@ All imagery provides alternative text to be used in the event that the element c
 * Endorses Section - A section to inform the user about what products the client uses therefore encouraging the potential student or fellow musician to use the same product which could lead to opening avenues for company collaborations
 * Contact page - A new page with several contact options
 
-## Technologies Used
+[Back to top](#nick-lennon---drummer)
+
+# Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - HTML5
@@ -225,39 +250,49 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Fontawesome and Phosphor Icons were used for the icons throughout (https://fontawesome.com/ https://phosphoricons.com/)
 - Original wireframes were created with Balsamiq and Figma (https://balsamiq.com/, https://www.figma.com/)
 
+[Back to top](#nick-lennon---drummer)
 
-## Testing
+# Testing
 
 ### Testing planning
 ### Implementation
 ### Results and outcomes
 
+[Back to top](#nick-lennon---drummer)
 
-## Deployment
+# Deployment
 
+[Back to top](#nick-lennon---drummer)
 
-## Bugs
+# Bugs and Issues
 
+[Back to top](#nick-lennon---drummer)
 
-## Credits
+# Credits
 
-### Content
+## Content
 
 All content on this site is original
 
-### Media
-All my images that were used during the development of this site were original or taken from Pixabay
+[Back to top](#nick-lennon---drummer)
+
+## Media
+All my images that were used during the development of this site is original content or taken from Pixabay
+
 Drumming related:
 - https://pixabay.com/photos/drums-live-dancing-entertainment-755530/
 - https://pixabay.com/photos/drums-drum-pool-snare-drum-2778190/
 - https://pixabay.com/photos/drummer-drum-set-drums-music-5229705/
+
 Venues:
 - https://pixabay.com/photos/concert-park-venue-music-artist-4634009/
 - https://pixabay.com/photos/metz-france-opera-theatre-interior-86226/
 - https://pixabay.com/photos/performance-music-musician-concert-3202707/
 - https://pixabay.com/photos/guitar-rock-music-concert-sound-2006563/
 
-### Acknowledgements
+[Back to top](#nick-lennon---drummer)
+
+## Acknowledgements
 Readme template used to produce this documentation is from https://github.com/Code-Institute-Solutions/readme-template
 
-
+[Back to top](#nick-lennon---drummer)
