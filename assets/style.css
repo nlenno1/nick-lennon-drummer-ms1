@@ -3,3 +3,65 @@ body {
     padding: 0;
     background-color: #5C93AE;
 }
+
+
+/*-----------  Header */
+
+.navbar {
+    background-color: #0B0D10;
+    height: 70px;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.nav-icons-container {
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.nav-icons-container ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-icons-container li{
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.nav-icon {
+    text-decoration: none;
+    color: #0D3B51;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.nav-icon p {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.nav-icon i {
+    font-size: 1.6rem;
+}
+
+#logo {
+    height: 100%;
+    width: 100%;
+    max-width: 120px;
+}
+
+.logo-container {
+    padding: 0 0.5rem 0 0;
+}
+
+.nav-icons-container  a:hover{
+    color: #c4c4c4;
+}
