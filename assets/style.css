@@ -22,22 +22,17 @@ header .current-page{
 
 .nav-icons-container {
     padding: 0;
-    vertical-align: bottom;
 }
 
 .nav-icons-container ul {
     padding: 0;
     margin: 0;
-    text-align: center;
-    vertical-align: bottom;
 }
 
 .nav-icons-container li{
     display: inline-block;
     width: 23%;
     text-align: center;
-    vertical-align: bottom;
-    padding:0;
 }
 
 .nav-icon {
@@ -271,3 +266,19 @@ footer h5 {
     left: 53%;
     }
 }
+
+/*----------------------------- What I Do */
+
+.what-i-do-button {
+    height: 85px;
+    width: 85px;
+    margin: 20px auto;
+    padding: 2px;
+    padding-top:15px;
+    border-radius: 10px;
+    background-color: #c4c4c4;
+}
+
+.lessons-button{
+     padding-top: 20px;
+ }
