@@ -189,7 +189,6 @@ footer h5 {
 
 }
 
-
 /*----------------------------- Hero Image */
 
 #hero-image{
@@ -243,5 +242,32 @@ footer h5 {
     #hero-image, #hero-overlay {
     height: 550px;
     }
+
+    #title-overlay {
+    top: 20%;
+    right: 42%;
+    }
+
+    #title-overlay h1 {
+        font-size: 40px;
+    }
+
+    #subtitle-overlay {
+    bottom:26%;
+    left: 52%;
+    }
+
+    #subtitle-overlay h2 {
+    font-size: 20px;
+    }
 }
 
+@media (min-width: 1200px) {
+    #title-overlay {
+    right: 46%;
+    }
+
+    #subtitle-overlay {
+    left: 53%;
+    }
+}
