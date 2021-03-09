@@ -87,6 +87,14 @@ footer{
     background-color:#0D3B51;
 }
 
+footer p {
+    font-size: 12px;
+}
+
+footer h5 {
+    font-size: 18px;
+}
+
 .social-links {
     padding: 0.5rem;
     text-align: center;
@@ -118,7 +126,7 @@ footer{
 }
 
 .get-in-touch {
-    padding: 2rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
 }
 
 .copyright {
@@ -129,7 +137,7 @@ footer{
     padding-left:4rem;
 }
 
-.site-map h4{
+.site-map>h5{
     margin: 0;
     padding-top: 1.25rem;
 }
@@ -170,20 +178,15 @@ footer{
     margin: 0.2rem 0;
 }
 
-@media (max-width: 992px) {
-    .mailing-list {
-    padding: 1rem 1rem 0 1rem;
-    }
-
-    .copyright{
-        margin-top: 1rem;
-    }
-}
-
-@media (max-width: 575px) {
+@media (min-width: 992px) {
     .get-in-touch {
-        padding: 1rem 1rem 0 1rem;
+        padding-top: 2rem;
     }
+
+    .mailing-list {
+    padding-top: 0;
+    }
+
 }
 
 
