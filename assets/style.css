@@ -5,13 +5,13 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
-/*-----------  Colours */
+/*----------------------------- Colours */
 
 header .current-page{
     color:#5093AE;
 }
 
-/*-----------  Header */
+/*----------------------------- Header */
 
 .navbar {
     background-color: #0B0D10;
@@ -80,7 +80,7 @@ header .current-page{
     }
 }
 
-/*---------------- Footer */
+/*----------------------------- Footer */
 
 footer{
     color:#fafafa;
@@ -185,3 +185,60 @@ footer{
         padding: 1rem 1rem 0 1rem;
     }
 }
+
+
+/*----------------------------- Hero Image */
+
+#hero-image{
+    height: 320px;
+    width: 100%;
+    background: url("images/nick-lennon-hero-image.jpg") #1E5671 no-repeat center center; 
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image-container {
+    padding: 0;
+}
+
+#hero-overlay {
+    height: 320px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+
+#title-overlay, #subtitle-overlay{
+    color: #fafafa;
+    position: absolute;
+}
+
+#title-overlay {
+    top: 15%;
+    right: 40%;
+}
+
+#title-overlay h1 {
+    margin: 0;
+}
+
+#subtitle-overlay {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgba(196,196,196,0.6);
+    bottom:26%;
+    left: 53%;
+}
+
+#subtitle-overlay h2 {
+    font-size: 14px;
+    margin: 0;
+}
+
+@media (min-width: 575px) {
+    #hero-image, #hero-overlay {
+    height: 550px;
+    }
+}
+
