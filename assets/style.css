@@ -277,8 +277,14 @@ footer h5 {
     padding-top:15px;
     border-radius: 10px;
     background-color: #c4c4c4;
+    border: 2px solid #c4c4c4;
 }
 
 .lessons-button{
      padding-top: 20px;
  }
+
+.what-i-do-button:hover{
+    color: #0D3B51;
+    background-color: #5093AE;
+} 
