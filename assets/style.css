@@ -285,3 +285,22 @@ footer h5 {
     color: #0D3B51;
     background-color: #5093AE;
 } 
+
+@media (min-width: 575px) {
+    .what-i-do-button{
+    height: 150px;
+    width: 150px;
+    }
+
+    .what-i-do-button i{
+    font-size: 3.1rem;
+    }
+
+    .what-i-do-button p{
+    font-size: 1.2rem;
+    }
+    
+    .what-i-do-button div{
+        margin-top: 12px;
+    }
+}
