@@ -25,20 +25,17 @@ header .current-page{
 }
 
 .nav-icons-container ul {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .nav-icons-container li{
-    display: inline-block;
-    width: 23%;
     text-align: center;
 }
 
 .nav-icon {
-    text-decoration: none;
     color: #1E5671;
-    text-align: center;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
