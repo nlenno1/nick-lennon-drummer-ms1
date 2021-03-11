@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -12,6 +14,10 @@ header .current-page{
 }
 
 /*----------------------------- Header */
+
+.header-btn {
+    padding: 0;
+}
 
 .navbar {
     background-color: #0B0D10;
@@ -40,6 +46,8 @@ header .current-page{
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+
+    width: 85%;
 }
 
 .nav-icon p {
@@ -51,6 +59,8 @@ header .current-page{
     font-size: 1.6rem;
 }
 
+
+
 #logo {
     height: 100%;
     width: 100%;
@@ -58,7 +68,7 @@ header .current-page{
 }
 
 .logo-container {
-    padding: 0 0.5rem 0.25rem 0.5rem;
+    padding: 0 0 0.25rem 0;
 }
 
 .nav-icons-container  a:hover{
@@ -66,9 +76,9 @@ header .current-page{
 }
 
 
-@media (max-width:425px) {
+@media (min-width:425px) {
     .logo-container {
-    padding: 0 0 0.25rem 0;
+    padding: 0 0.5rem 0.25rem 0.5rem;
     }
 }
 
@@ -118,7 +128,7 @@ footer h5 {
 }
 
 .get-in-touch {
-    padding: 1rem 1rem 0 1rem;
+    padding-top: 1rem;
 }
 
 .copyright {
@@ -185,7 +195,6 @@ footer h5 {
 
 #hero-image{
     height: 320px;
-    width: 100%;
     background: url("images/nick-lennon-hero-image.jpg") #1E5671 no-repeat center center; 
     background-size: cover;
     overflow: hidden;
@@ -198,7 +207,6 @@ footer h5 {
 
 #hero-overlay {
     height: 320px;
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
 }
