@@ -318,14 +318,71 @@ footer h5 {
     }
 }
 
+/*---------------------------------------Upcoming Performances Section */
+
+#upcoming-performances-section {
+    height: 425px;
+    padding: 40px 0;
+    background: url("images/performance-background.jpg") #1E5671 no-repeat center center fixed; 
+    background-size: cover;
+}
+
+ .performance-button {
+    width: 90%;
+    max-width: 350px;
+    height: 75px;
+    background-color: #FFDFBA;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.performance-button-left {
+    text-align: center;
+    line-height: 75px;
+    font-size: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+.performance-button-center {
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+}
+
+.performance-button-center h4 {
+    font-size: 15px;
+}
+
+.performance-button-center p {
+    font-size: 10px;
+}
+
+.performance-button-right {
+    text-align: center;
+    line-height: 75px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 75px;
+    color: #000;
+}
+
+/*---------------------------------------Media Queries */
+
 @media (min-width:575px) {
     body{
     width: 100vw;
     }
 }
-
+/*--- Reducing Future Performance Height--*/
+@media(min-width: 700px) {
+    #upcoming-performances-section {
+        height: 310px;
+    }
+}
 @media (min-width:992px) {
     body{
     width: 100%;
     }
+
+    
 }
