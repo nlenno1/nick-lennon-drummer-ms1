@@ -197,7 +197,6 @@ footer h5 {
     height: 320px;
     background: url("images/nick-lennon-hero-image.jpg") #1E5671 no-repeat center center; 
     background-size: cover;
-    overflow: hidden;
     position: relative;
 }
 
@@ -316,5 +315,17 @@ footer h5 {
     
     .what-i-do-button div{
         margin-top: 12px;
+    }
+}
+
+@media (min-width:575px) {
+    body{
+    width: 100vw;
+    }
+}
+
+@media (min-width:992px) {
+    body{
+    width: 100%;
     }
 }
