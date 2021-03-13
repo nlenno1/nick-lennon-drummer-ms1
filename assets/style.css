@@ -318,6 +318,125 @@ footer h5 {
     }
 }
 
+/*---------------------------------------Gallery Section */
+
+#gallery {
+    padding: 12px;
+    column-count: 2;
+    column-gap: 0px;
+    height: 100%;
+}
+
+@media (min-width: 575px) {
+    #gallery {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 768px) {
+    #gallery {
+        column-count: 4;
+    }
+}
+
+@media (min-width: 992px) {
+    #gallery {
+        column-count: 5;
+    }
+
+    .gallery-container {
+    padding: 64px 16px;
+    }   
+}
+
+.gallery-container {
+    height: 750px;
+    padding: 32px 16px 64px 16px;
+}
+
+.gallery-container-inner {
+    height: 100%;
+    width: 100%;
+    background-color: #FFDFBA;
+    border-radius: 20px;
+}
+
+.img-1, .img-2 {
+    width: 100%;
+}
+
+.img-1 {
+    height: 28.57%;
+
+}
+
+.img-2 {
+    height: 42.86%;
+}
+
+.photo-1 {
+    background: url("images/gallery/gallery-photo-1.jpg") center;
+    background-size: cover;
+}
+.photo-2 {
+    background: url("images/gallery/gallery-photo-2.jpg") center;
+    background-size: cover;
+}
+.photo-3 {
+    background: url("images/gallery/gallery-photo-3.jpg") center;
+    background-size: cover;
+}
+.photo-4 {
+    background: url("images/gallery/gallery-photo-4.jpg") center;
+    background-size: cover;
+}
+.photo-5 {
+    background: url("images/gallery/gallery-photo-5.jpg") center;
+    background-size: cover;
+}
+.photo-6 {
+    background: url("images/gallery/gallery-photo-6.jpg") center;
+    background-size: cover;
+}
+.photo-7 {
+    background: url("images/gallery/gallery-photo-7.jpg") center;
+    background-size: cover;
+}
+.photo-8 {
+    background: url("images/gallery/gallery-photo-8.jpg") center;
+    background-size: cover;
+}
+.photo-9 {
+    background: url("images/gallery/gallery-photo-9.jpg") center;
+    background-size: cover;
+}
+.photo-10 {
+    background: url("images/gallery/gallery-photo-10.jpg") center;
+    background-size: cover;
+}
+.photo-11 {
+    background: url("images/gallery/gallery-photo-11.jpg") center;
+    background-size: cover;
+}
+.photo-12 {
+    background: url("images/gallery/gallery-photo-12.jpg") center;
+    background-size: cover;
+}
+.photo-13 {
+    background: url("images/gallery/gallery-photo-13.jpg") center;
+    background-size: cover;
+}
+.photo-14 {
+    background: url("images/gallery/gallery-photo-14.jpg") center;
+    background-size: cover;
+}
+.photo-15 {
+    background: url("images/gallery/gallery-photo-15.jpg") center;
+    background-size: cover;
+}
+
+
+
 /*---------------------------------------Upcoming Performances Section */
 
 #upcoming-performances-section {
