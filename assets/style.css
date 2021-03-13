@@ -346,11 +346,12 @@ footer h5 {
 
     .gallery-container {
     padding: 64px 16px;
-    }   
+    margin: 64px 0;
+    }
 }
 
 .gallery-container {
-    height: 750px;
+    height: 760px;
     padding: 32px 16px 64px 16px;
 }
 
@@ -550,9 +551,10 @@ footer h5 {
     }
     
     #upcoming-performances-section {
-    height: 580px;
-    padding: 60px 50px;
-    }   
+    height: 660px;
+    padding: 100px 50px;
+    }
+       
 
     .performance-button {
     width: 90%;
@@ -594,7 +596,7 @@ footer h5 {
 
     .performance-button:hover .performance-button-center {
         color:#fff;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.25);
     }
 
     .performance-button:hover .performance-button-center h4 {
