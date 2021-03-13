@@ -385,10 +385,27 @@ footer h5 {
     }
 
     /*-- Upcoming Performance Desktop Breakpoint Media Query --*/
+    #performance-button-1 {
+        background: url("images/performance-button-background-1.jpg") #1E5671 no-repeat center; 
+    }
+
+    #performance-button-2 {
+        background: url("images/performance-button-background-2.jpg") #1E5671 no-repeat center; 
+    }
+
+    #performance-button-3 {
+        background: #1E5671 url("images/performance-button-background-3.jpg") no-repeat center; 
+        background-size: cover;
+    }
+
+    #performance-button-4 {
+        background: url("images/performance-button-background-4.jpg") #1E5671 no-repeat center; 
+    }
+    
     #upcoming-performances-section {
     height: 580px;
     padding: 60px 50px;
-}   
+    }   
 
     .performance-button {
     width: 90%;
@@ -397,9 +414,10 @@ footer h5 {
     }
 
     .performance-button-center {
-        height: 300px;
+        height: 325px;
         border-radius: 20px 20px 0 0;
         padding: 20px 15px;
+        background-color: #FFDFBA;
     }
 
     .performance-button-center h4 {
@@ -413,11 +431,31 @@ footer h5 {
     }
 
     .performance-button-right {
-        height: 100px;
+        line-height: 90px;
+        height: 96px;
         border-radius: 0 0 20px 20px;
-        line-height: 100px;
         font-size: 25px;
         border-top: 1px dashed #000;
+        background-color: #FFDFBA;
     }
+
+    .performance-button:hover .performance-button-right {
+        color:#fff;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-top: 1px solid rgba(0, 0, 0, 0.8);
+    }
+
+    .performance-button:hover .performance-button-center {
+        color:#fff;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .performance-button:hover .performance-button-center h4 {
+        border-bottom: 1px solid #fff;
+    }
+
+
+
+    
 }
 
