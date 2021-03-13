@@ -495,6 +495,24 @@ footer h5 {
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*---------------------------------------Live Performance Video Section */
+
+.video-container {
+    padding: 10vw 0;
+}
+
+.video-container iframe {
+    width: 80vw;
+    height: 45vw;
+
+    display: block;
+    margin: 0 auto;
+
+    max-height: 540px;
+    max-width: 960px;
+}
+
+
 /*---------------------------------------Media Queries */
 
 @media (min-width:575px) {
@@ -583,8 +601,19 @@ footer h5 {
         border-bottom: 1px solid #fff;
     }
 
-
-
+    /*-- Live Performance Video Desktop Breakpoint---*/
+    .video-container {
+        padding: 5vw 0;
+    }
     
+    .video-container iframe {
+        width: 40vw;
+        height: 22.5vw;
+    }
+
+    .video-container-outer {
+        padding: 0 3vw;
+    }
+
 }
 
