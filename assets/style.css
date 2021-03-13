@@ -346,6 +346,11 @@ footer h5 {
 .performance-button-center {
     padding: 10px 5px 5px 5px;
     text-align: center;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .performance-button-center h4 {
@@ -364,6 +369,11 @@ footer h5 {
     text-decoration: none;
     line-height: 75px;
     color: #000;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /*---------------------------------------Media Queries */
@@ -441,8 +451,8 @@ footer h5 {
 
     .performance-button:hover .performance-button-right {
         color:#fff;
-        background-color: rgba(0, 0, 0, 0.8);
-        border-top: 1px solid rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.85);
+        border-top: 1px solid rgba(0, 0, 0, 0.9);
     }
 
     .performance-button:hover .performance-button-center {
