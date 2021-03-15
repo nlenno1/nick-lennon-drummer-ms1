@@ -273,6 +273,21 @@ footer h5 {
 
 /*----------------------------- What I Do */
 
+.what-i-do-container {
+    padding: 0 20px;
+}
+
+.what-i-do-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-icons-container li{
+    text-align: center;
+}
+
 .what-i-do-button {
     height: 85px;
     width: 85px;
@@ -529,7 +544,7 @@ footer h5 {
 }
 @media (min-width:992px) {
     body{
-    width: 100%;
+    width: 100vw;
     }
 
     /*-- Upcoming Performance Desktop Breakpoint Media Query --*/
