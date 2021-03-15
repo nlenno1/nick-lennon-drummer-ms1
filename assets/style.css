@@ -273,6 +273,17 @@ footer h5 {
 
 /*----------------------------- What I Do */
 
+.what-i-do-container ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+    padding: 0 5vw;
+}
+
+.what-i-do-container li{
+    text-align: center;
+}
+
 .what-i-do-button {
     height: 85px;
     width: 85px;
