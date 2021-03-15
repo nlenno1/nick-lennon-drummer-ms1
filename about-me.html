@@ -16,12 +16,12 @@
         <div class="continer-fluid g-0">
             <div class="row navbar">
                 <div class="col-5 col-sm-6 col-md-8 col-xl-9 logo-container">
-                    <a href="index.html"><img id="logo" src="assets/images/nicklennondrums_logo.png" alt="Nick Lennon Drums Logo"></a> 
+                    <a href="index.html"><img id="logo" src="assets/images/nicklennondrums_logo.png" alt="Nick Lennon Drums Logo" aria=""></a> 
                 </div>
                 <div class="col-7 col-sm-6 col-md-4 col-xl-3 nav-icons-container">
                     <ul class="row g-0">
                         <li class="d-none d-sm-block col-sm-3">
-                            <a class="nav-icon header-btn btn" href="index.html">
+                            <a class="nav-icon header-btn btn" href="index.html" aria-label="Go to home page">
                                 <div>
                                     <i class="fas fa-home current-page" aria-hidden="true"></i>
                                     <p>Home</p>
@@ -29,7 +29,7 @@
                             </a>
                         </li>
                         <li class="col-4 col-sm-3">
-                            <a class="nav-icon header-btn btn" href="about-me.html">
+                            <a class="nav-icon header-btn btn" href="about-me.html" aria-label="Go to about page">
                                 <div>
                                     <i class="fa fa-user" aria-hidden="true"></i>
                                     <p>About</p>
@@ -37,7 +37,7 @@
                             </a>
                         </li>
                         <li class="col-4 col-sm-3">
-                            <a class="nav-icon header-btn btn" href="lessons.html">
+                            <a class="nav-icon header-btn btn" href="lessons.html" aria-label="Go to lessons page">
                                 <div>
                                     <i class="fas fa-graduation-cap" aria-hidden="true"></i>
                                     <p>Lessons</p>
@@ -45,7 +45,7 @@
                             </a>
                         </li>
                         <li class="col-4 col-sm-3">
-                            <a class="nav-icon header-btn btn" href="#footer">
+                            <a class="nav-icon header-btn btn" href="#footer" aria-label="Go to contact information"> 
                                 <div>
                                     <i class="fas fa-comment-dots" aria-hidden="true"></i>
                                     <p>Contact</p>
@@ -56,11 +56,12 @@
                 </div>        
             </div>
         </div>
-    </header>      
+    </header>  
 
-    <section>
+    <section class="container-fluid">
+        
     </section>
-
+    
     <footer>
         <div class="container-fluid g-0" id="footer">
             <div class="row g-0">
@@ -68,25 +69,25 @@
                     <h5>Site Map</h5>
                     <ul class="map-list">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.html" aria-label="Go to home page">Home</a>
                         </li>
                         <li>
-                            <a href="about-me.html">About Me</a>
+                            <a href="about-me.html" aria-label="Go to about page">About Me</a>
                         </li>
                         <li>
-                            <a href="index.html#what-i-do">What I Do</a>
+                            <a href="index.html#what-i-do-section" aria-label="Go to what I do section">What I Do</a>
                         </li>
                         <li>
-                            <a href="index.html#upcoming-performances">Upcoming Performances</a>
+                            <a href="index.html#upcoming-performances-section" aria-label="Go to upcoming performances section">Upcoming Performances</a>
                         </li>
                         <li>
-                            <a href="about-me#studio-credits">Studio Credits</a>
+                            <a href="about-me#studio-credits-section" aria-label="Go to studio credits section">Studio Credits</a>
                         </li>
                         <li>
-                            <a href="lessons.html">Lessons</a>
+                            <a href="lessons.html" aria-label="Go to lessons page">Lessons</a>
                         </li>
                         <li>
-                            <a href="lessons.html#lessons-example">Wonder what a lesson would be like?</a>
+                            <a href="lessons.html#lessons-example-section" aria-label="Go to lessons example section">Wonder what a lesson would be like?</a>
                         </li>
                     </ul>
                 </div>
@@ -94,22 +95,22 @@
                     <div class="col-sm-12 col-lg-6">
                         <ul class="social-links">
                         <li>
-                            <a href="www.facebook.com">
+                            <a href="www.facebook.com" target="_blank" aria-label="Go to my facebook page (opens in a new tab)">
                                 <i class="fa fa-facebook-square"></i>
                             </a>
                         </li>
                         <li>
                             <a href="www.instagram.com">
-                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-instagram" target="_blank" aria-label="Go to my instagram page (opens in a new tab)"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="www.youtube.com">
+                            <a href="www.youtube.com" target="_blank" aria-label="Go to my youtube page (opens in a new tab)">
                                 <i class="fa fa-youtube"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="www.soundcloud.com">
+                            <a href="www.soundcloud.com" target="_blank" aria-label="Go to my soundcloud page (opens in a new tab)">
                                 <i class="fa fa-soundcloud"></i>
                             </a>
                         </li>
@@ -128,7 +129,7 @@
                                 </div>
                             </div>
                             <p>Sign up to my mailing list for all my latest news</p>
-                            <form action="#" method="#" >
+                            <form action="#" method="#" id="mailing-list-sign-up" aria-label="Sign up to my mailing list">
                                 <input type="email" class="email-input" name="email" placeholder="Email Address" required>
                                 <input type="submit" class="btn submit" value="Sign Up!">
                             </form>
