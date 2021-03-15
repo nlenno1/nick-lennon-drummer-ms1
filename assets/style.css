@@ -704,6 +704,7 @@ footer h5 {
     height: 100%;
     width: 100%;
     padding: 1rem; 
+    margin: 0 auto;
 
     background-color: #FFDFBA;
     border-radius: 20px;
@@ -747,4 +748,78 @@ footer h5 {
 
 .timeline-item-text p {
     font-size: 16px;
+}
+
+/*--------------------------------------- Studio Credits Section */
+
+.studio-credits-container {
+    height: 100%;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.album-cover {
+    padding: 30px 35px;
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+}
+
+.album-cover a {
+    text-decoration: none;
+}
+
+.album-cover img {
+    width: 100%;
+}
+
+.album-cover p {
+    color: #000;
+    font-size: 20px;
+    line-height: 30px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba( 196, 196, 196, 0.5);
+
+    position: absolute;
+    bottom: 13%;
+    left: 15%;
+}
+
+.soundcloud-link {
+    margin: 20px 0;
+}
+
+@media (min-width:575px) {
+    .studio-credits-container h2 {
+    margin-bottom: 1rem;
+    }
+
+    .album-cover {
+    max-width: 175px;
+    padding: 25px 5px;
+    }
+
+    .studio-credits-container {
+    padding: 1.6rem 1rem 1.8rem 5px;
+    text-align: center;
+    }
+
+    .soundcloud-links {
+    padding: 2rem 0;
+    }
+}
+@media (min-width: 992px) {
+    .timeline-container {
+        padding: 10px 30px;
+    }
+    .soundcloud-links {
+    padding: 0;
+    }
+
+    .album-cover {
+    padding: 10px;
+    max-width: 200px;
+}
 }
