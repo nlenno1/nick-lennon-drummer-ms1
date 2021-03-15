@@ -273,18 +273,14 @@ footer h5 {
 
 /*----------------------------- What I Do */
 
-.what-i-do-container {
-    padding: 0 20px;
-}
-
 .what-i-do-container ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+    display: flex;
+    margin-bottom: 0;
+    padding: 0 5vw;
 }
 
-.nav-icons-container li{
+.what-i-do-container li{
     text-align: center;
 }
 
@@ -634,3 +630,121 @@ footer h5 {
 
 }
 
+
+
+/*--------------------------------------- About Me Page */
+
+/*--------------------------------------- Biography Section */
+
+.profile-picture {
+    height: 300px;
+    width: 100%;
+
+    border-radius: 20px;
+    background-color: #0D3B51;
+    background-image: url(images/profile-picture.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.biography-text {
+    padding: 1rem 0;
+    height: 100%;
+}
+
+#bio-section {
+    padding: 2rem;
+    height: 100%;
+}
+
+.cv-download a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-download a:hover{
+    color: #FFDFBA;
+    font-weight: 400;
+}
+@media(min-width:575px) {
+    .profile-picture-container {
+        order: 2;
+    }
+
+    .biography-text {
+        order: 1;
+        padding: 1rem;
+    }
+}
+
+@media(min-width:992px) {
+    .biography-text {
+        padding: 1rem 3rem;
+    }
+}
+
+
+/*--------------------------------------- Career Highlights Section */
+
+.timeline-container{
+    height: 100%;
+    padding: 1rem;
+}
+
+.timeline-background{
+    height: 100%;
+    width: 100%;
+    padding: 1rem; 
+
+    background-color: #FFDFBA;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: center;
+}
+
+.fa-dot-circle:before{
+    position: absolute;
+    left: -11px;
+    top: 60px;
+    font-size: 20px
+}
+
+.timeline-item {
+    padding-bottom: 20px;
+    border-left: 2px solid #000;
+    margin-left: 5px;
+    position: relative;
+}
+
+.timeline-item-text {
+    text-align: left;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timeline-date {
+    margin: 0;
+    font-size: 12px;
+}
+
+.timeline-item-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.timeline-item-text p {
+    font-size: 16px;
+}
