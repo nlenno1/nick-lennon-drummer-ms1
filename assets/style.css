@@ -648,17 +648,12 @@ footer h5 {
 
     border-radius: 20px;
     background-color: #0D3B51;
-    background-image: url(images/profile-picture.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+    object-position: top;
+    object-fit: cover;
 
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
-.profile-picture-container-inner {
-    margin: 1rem;
-}
 
 .biography-text {
     padding: 1rem 0;
@@ -688,14 +683,22 @@ footer h5 {
 @media(min-width:575px) {
     .profile-picture-container {
         order: 2;
+
+    }
+
+    #bio-section {
+    padding-right: 1.6rem;
     }
 
     .biography-text {
         order: 1;
         padding: 1rem;
     }
-    .profile-picture-container-inner {
-    margin: 0;
+}
+
+@media(min-width:749px) {
+    #bio-section {
+    padding-right: 1.6rem;
     }
 }
 
@@ -703,8 +706,9 @@ footer h5 {
     .biography-text {
         padding: 1rem 3rem;
     }
-    .profile-picture-container-inner {
-    margin: 1rem 2.3rem 1rem 0;
+
+    #bio-section {
+    padding-right: 4.2rem;
     }
 }
 
