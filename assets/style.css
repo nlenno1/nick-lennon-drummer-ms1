@@ -784,9 +784,9 @@ footer h5 {
 
 .fa-dot-circle:before{
     position: absolute;
-    left: -9px;
+    left: -11px;
     top: 60px;
-    font-size: 20px
+    font-size: 20px;
 
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -926,5 +926,29 @@ footer h5 {
     .album-cover {
     padding: 10px;
     max-width: 200px;
+    }
+
+    .album-cover p {
+    color: #000;
+    opacity: 0;
+    font-size: 25px;
+    width: 90%;
+    height: 90%;
+    background-color: rgba( 196, 196, 196, 0.8);
+    
+    padding-top: 55px;
+    
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    }
+
+    .album-cover p:hover {
+        opacity: 1;
     }
 }
