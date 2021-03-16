@@ -376,6 +376,7 @@ footer h5 {
 
 .img-1, .img-2 {
     width: 100%;
+    object-fit: cover;
 }
 
 .img-1 {
@@ -387,67 +388,21 @@ footer h5 {
     height: 42.86%;
 }
 
-.photo-1 {
-    background: url("images/gallery/gallery-photo-1.jpg") center;
-    background-size: cover;
-}
-.photo-2 {
-    background: url("images/gallery/gallery-photo-2.jpg") center;
-    background-size: cover;
-}
-.photo-3 {
-    background: url("images/gallery/gallery-photo-3.jpg") center;
-    background-size: cover;
-}
-.photo-4 {
-    background: url("images/gallery/gallery-photo-4.jpg") center;
-    background-size: cover;
-}
-.photo-5 {
-    background: url("images/gallery/gallery-photo-5.jpg") center;
-    background-size: cover;
-}
-.photo-6 {
-    background: url("images/gallery/gallery-photo-6.jpg") center;
-    background-size: cover;
-}
-.photo-7 {
-    background: url("images/gallery/gallery-photo-7.jpg") center;
-    background-size: cover;
-}
-.photo-8 {
-    background: url("images/gallery/gallery-photo-8.jpg") center;
-    background-size: cover;
-}
-.photo-9 {
-    background: url("images/gallery/gallery-photo-9.jpg") center;
-    background-size: cover;
-}
-.photo-10 {
-    background: url("images/gallery/gallery-photo-10.jpg") center;
-    background-size: cover;
-}
-.photo-11 {
-    background: url("images/gallery/gallery-photo-11.jpg") center;
-    background-size: cover;
-}
-.photo-12 {
-    background: url("images/gallery/gallery-photo-12.jpg") center;
-    background-size: cover;
-}
-.photo-13 {
-    background: url("images/gallery/gallery-photo-13.jpg") center;
-    background-size: cover;
-}
-.photo-14 {
-    background: url("images/gallery/gallery-photo-14.jpg") center;
-    background-size: cover;
-}
-.photo-15 {
-    background: url("images/gallery/gallery-photo-15.jpg") center;
-    background-size: cover;
+.tl-corner {
+    border-radius: 10px 0 0 0;
 }
 
+.tr-corner {
+    border-radius: 0 10px 0 0;
+}
+
+.br-corner {
+    border-radius: 0 0 10px 0;
+}
+
+.bl-corner {
+    border-radius: 0 0 0 10px;
+}
 
 
 /*---------------------------------------Upcoming Performances Section */
@@ -845,5 +800,5 @@ footer h5 {
     .album-cover {
     padding: 10px;
     max-width: 200px;
-}
+    }
 }
