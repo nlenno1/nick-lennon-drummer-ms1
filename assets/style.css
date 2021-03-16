@@ -47,6 +47,7 @@ header .current-page{
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
+
     width: 85%;
 }
 
@@ -704,6 +705,7 @@ footer h5 {
 .biography-text {
     padding: 1rem 0;
     height: 100%;
+    color: #fafafa;
 }
 
 #bio-section {
