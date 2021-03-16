@@ -1,6 +1,7 @@
 
 
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #5C93AE;
@@ -524,12 +525,17 @@ footer h5 {
     max-width: 960px;
 }
 
+.live-performance-iframe {
+    border: 0;
+    overflow: hidden;    
+}
+
 
 /*---------------------------------------Media Queries */
 
-@media (min-width:575px) {
+/*--@media (min-width:575px) {
     body{
-    width: 100vw;
+    width: 98vw;
     }
 }
 /*--- Reducing Future Performance Height--*/
@@ -539,8 +545,8 @@ footer h5 {
     }
 }
 @media (min-width:992px) {
-    body{
-    width: 100vw;
+    /*-- body{
+    width: 98vw;
     }
 
     /*-- Upcoming Performance Desktop Breakpoint Media Query --*/
@@ -650,6 +656,10 @@ footer h5 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
+.profile-picture-container-inner {
+    margin: 1rem;
+}
+
 .biography-text {
     padding: 1rem 0;
     height: 100%;
@@ -684,11 +694,17 @@ footer h5 {
         order: 1;
         padding: 1rem;
     }
+    .profile-picture-container-inner {
+    margin: 0;
+    }
 }
 
 @media(min-width:992px) {
     .biography-text {
         padding: 1rem 3rem;
+    }
+    .profile-picture-container-inner {
+    margin: 1rem 2.3rem 1rem 0;
     }
 }
 
@@ -789,6 +805,10 @@ footer h5 {
 
 .soundcloud-link {
     margin: 20px 0;
+    width: 90%;
+    height: 166px;
+    overflow: hidden;
+    border: 0;
 }
 
 @media (min-width:575px) {
