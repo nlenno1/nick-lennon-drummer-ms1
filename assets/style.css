@@ -784,9 +784,14 @@ footer h5 {
 
 .fa-dot-circle:before{
     position: absolute;
-    left: -11px;
+    left: -9px;
     top: 60px;
     font-size: 20px
+
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .timeline-item {
@@ -803,6 +808,21 @@ footer h5 {
     border-radius: 10px;
     background-color: #fafafa;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.timeline-item:hover .timeline-item-text {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6), 0 9px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+.timeline-item:hover .fa-dot-circle:before{
+    font-size: 25px;
+    left: -14px;
+    top: 57px;
 }
 
 .timeline-date {
