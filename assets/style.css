@@ -429,7 +429,6 @@ footer h5 {
     column-count: 2;
     column-gap: 0px;
     height: 100%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 576px) {
@@ -465,6 +464,7 @@ footer h5 {
     width: 100%;
     background-color: #FFDFBA;
     border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-1, .img-2 {
