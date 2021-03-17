@@ -883,8 +883,8 @@ footer h5 {
 
 .timeline-item:hover .fa-dot-circle:before{
     font-size: 25px;
-    left: -14px;
-    top: 57px;
+    left: -13.5px;
+    top: 55.5px;
 }
 
 .timeline-date {
