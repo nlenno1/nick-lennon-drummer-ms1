@@ -958,6 +958,14 @@ footer h5 {
     font-weight: 100;
 }
 
+.hvr-bounce-to-bottom:before {
+    background-color: rgba(196, 196, 196, 0.8);
+}
+
+.hvr-bounce-to-bottom:hover {
+    color: #000;
+}
+
 @media (min-width:575px) {
     .studio-credits-container h2 {
     margin-bottom: 1rem;
@@ -991,23 +999,26 @@ footer h5 {
     }
 
     .album-cover p {
-    color: #000;
+    color: rgba( 0, 0, 0, 0);
     opacity: 0;
     font-size: 25px;
     width: 90%;
     height: 90%;
-    background-color: rgba( 196, 196, 196, 0.8);
-    
-    padding-top: 55px;
+    background-color: rgba( 0, 0, 0, 0);
     
     position: absolute;
     bottom: 5%;
     left: 5%;
-
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2 ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
+    }
+    .one-line {
+        padding-top: 70px;
+    }
+    .two-line {
+        padding-top: 55px;
     }
 
     .album-cover p:hover {
