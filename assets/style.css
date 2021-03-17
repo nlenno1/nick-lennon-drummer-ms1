@@ -429,9 +429,10 @@ footer h5 {
     column-count: 2;
     column-gap: 0px;
     height: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
     #gallery {
         column-count: 3;
     }
@@ -495,6 +496,67 @@ footer h5 {
 .bl-corner {
     border-radius: 0 0 0 10px;
 }
+
+@media(min-width:576px) {
+    .tr-corner {
+        border-radius: 0;
+    }
+    .sm-tr-corner{
+        border-radius: 0 10px 0 0;;
+    }
+    .br-corner {
+        border-radius: 0;
+    }
+    .sm-br-corner{
+        border-radius: 0 0 10px 0;;
+    }
+}
+
+@media(min-width:768px) {
+    .sm-tr-corner {
+        border-radius: 0;
+    }
+    .md-tr-corner{
+        border-radius: 0 10px 0 0;;
+    }
+    .sm-br-corner {
+        border-radius: 0;
+    }
+    .md-br-corner{
+        border-radius: 0 0 10px 0;;
+    }
+}
+
+@media(min-width:768px) {
+    .sm-tr-corner {
+        border-radius: 0;
+    }
+    .md-tr-corner{
+        border-radius: 0 10px 0 0;;
+    }
+    .sm-br-corner {
+        border-radius: 0;
+    }
+    .md-br-corner{
+        border-radius: 0 0 10px 0;;
+    }
+}
+
+@media(min-width:992px) {
+    .md-tr-corner {
+        border-radius: 0;
+    }
+    .lg-tr-corner{
+        border-radius: 0 10px 0 0;;
+    }
+    .md-br-corner {
+        border-radius: 0;
+    }
+    .lg-br-corner{
+        border-radius: 0 0 10px 0;;
+    }
+}
+
 
 
 /*---------------------------------------Upcoming Performances Section */
