@@ -294,7 +294,8 @@ footer h5 {
     list-style-type: none;
     display: flex;
     margin-bottom: 0;
-    padding: 0 5vw;
+    padding: 3vw 5vw;
+    height: 100%;
 }
 
 .what-i-do-container li{
@@ -310,12 +311,19 @@ footer h5 {
     border-radius: 10px;
     background-color: #c4c4c4;
     border: 2px solid #c4c4c4;
+
+    font-size: 0.7rem;
+    
+    color: #1E5671;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
-.what-i-do-button-vert {
-    height: 85px;
-    width: 85px;
-    margin: 16px auto;
+.what-i-do-button i {
+    font-size: 1.6rem;
+    display: block;
 }
 
 .lessons-button{
@@ -329,16 +337,17 @@ footer h5 {
 
 @media (min-width: 575px) {
     .what-i-do-button{
-    height: 150px;
-    width: 150px;
+        height: 150px;
+        width: 150px;
+        margin: 40px auto;
     }
 
     .what-i-do-button i{
-    font-size: 3.1rem;
+        font-size: 3.1rem;
     }
 
     .what-i-do-button p{
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
     
     .what-i-do-button div{
@@ -348,22 +357,12 @@ footer h5 {
 
 @media(min-width:992px) {
     .what-i-do-container {
-        display: block;
-        padding: 20px;
-        height: 100%
+        padding: 20px 10vw;
     }
 
     .what-i-do-button {
-        height: 130px;
-        width: 130px;
-        margin: 20px auto;
-        padding-top: 6px;
+        margin: 50px auto;
     }
-
-    .lessons-button{
-    padding-top: 8px;
-}
-
 }
 
 /*---------------------------------------Gallery Section */
