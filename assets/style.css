@@ -371,7 +371,7 @@ footer h5 {
     padding: 12px;
     column-count: 2;
     column-gap: 0px;
-    height: 100%;
+    height: 600px;
 }
 
 @media (min-width: 576px) {
@@ -392,14 +392,29 @@ footer h5 {
     }
 
     .gallery-container {
-    padding: 64px 16px;
-    margin: 64px 0;
+    padding: 0 16px 64px 16px;
+    margin: 0;
     }
 }
 
 .gallery-container {
-    height: 760px;
-    padding: 32px 16px 64px 16px;
+    height: 100%;
+    padding: 0 16px 64px 16px;
+    text-align: center;
+}
+
+.gallery-container h2{
+    margin: 0 auto;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    padding: 5px;
+    padding-bottom: 7.5px;
+    line-height: 50px;
+    font-size: 40px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #ffdfba;
+    border-radius: 20px;
 }
 
 .gallery-container-inner {
@@ -497,6 +512,10 @@ footer h5 {
     }
     .lg-br-corner{
         border-radius: 0 0 10px 0;;
+    }
+
+    .gallery-container h2{
+        margin-bottom: 30px;
     }
 }
 
