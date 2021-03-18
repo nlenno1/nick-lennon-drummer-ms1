@@ -14,77 +14,17 @@ header .current-page{
     color:#5093AE;
 }
 
-/*----------------------------- NavBar */
-
-.header-btn {
-    padding: 0;
+.icon-blue {
+    color: #1E5671;
 }
+
+/*----------------------------- NavBar */
 
 .navbar {
     background-color: #0B0D10;
     height: 70px;
     margin: 0;
-    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
-}
-
-.nav-icons-container {
-    padding: 0;
-}
-
-.nav-icons-container ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-icons-container li{
-    text-align: center;
-}
-
-.nav-icon {
-    color: #1E5671;
-    transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-
-    width: 85%;
-}
-
-.nav-icon p {
-    margin: 0;
-    font-size: 0.7rem;
-}
-
-.nav-icon i {
-    font-size: 1.6rem;
-}
-
-#logo {
-    height: 100%;
-    width: 100%;
-    max-width: 120px;
-}
-
-.logo-container {
-    padding: 0 0 0.25rem 0;
-}
-
-.nav-icons-container  a:hover{
-    color: #c4c4c4;
-}
-
-
-@media (min-width:425px) {
-    .logo-container {
-    padding: 0 0.5rem 0.25rem 0.5rem;
-    }
-}
-
-/*------------------------New NavBar ----------*/
-
-.navbar {
-    padding-top: 4px;
+    padding: 0.3rem 0.5rem 0.25rem 0.5rem;
 }
 
 .navbar-nav {
@@ -119,7 +59,7 @@ header .current-page{
 .nav-link {
     padding: 0;
     bottom: 0;
-    color: #1E5671;
+    color: #5093AE;
 }
 
 .nav-link:hover {
@@ -129,6 +69,10 @@ header .current-page{
 .nav-link i {
     font-size: 1.6rem;
     display: block;
+}
+
+.active a {
+    color: #ffdfba;
 }
 
 @media (min-width:425px) {
