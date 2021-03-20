@@ -585,7 +585,10 @@ footer h5 {
     padding: 10vw 0;
 }
 
-.video-container iframe {
+.live-performance-iframe {
+    border: 0;
+    overflow: hidden;  
+    
     width: 80vw;
     height: 45vw;
 
@@ -593,12 +596,7 @@ footer h5 {
     margin: 0 auto;
 
     max-height: 540px;
-    max-width: 960px;
-}
-
-.live-performance-iframe {
-    border: 0;
-    overflow: hidden;    
+    max-width: 960px;  
 }
 
 
@@ -697,7 +695,7 @@ footer h5 {
         padding: 5vw 0;
     }
     
-    .video-container iframe {
+    .live-performance-iframe {
         width: 40vw;
         height: 22.5vw;
     }
@@ -987,3 +985,32 @@ footer h5 {
         opacity: 1;
     }
 }
+
+/*--------------------------------------- Lessons Page */
+
+/*--------------------------------------- Promo Video Section */
+
+
+.lesson-promo-video-iframe {
+    width: 88vw;
+    height: 49.5vw;
+
+    display: block;
+    margin: 0 auto;
+
+    border: 0;
+    overflow: hidden;    
+}
+
+.promo-video-container {
+    padding: 3vw 0;
+}
+
+@media(min-width:992px) {
+    .lesson-promo-video-iframe{
+    width: 64vw;
+    height: 37vw;
+    }
+}
+
+/*--------------------------------------- Lessons Overview Section */
