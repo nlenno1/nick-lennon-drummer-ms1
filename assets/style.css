@@ -1014,3 +1014,41 @@ footer h5 {
 }
 
 /*--------------------------------------- Lessons Overview Section */
+
+.lessons-overview-background {
+    background: #0D3B51 url(images/lessons-background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 6vw;
+    height: 100%;
+}
+
+.lessons-overview-container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+    max-width: 1000px;
+
+    background-color: rgba( 196, 196, 196, 0.8);
+    border-radius: 20px;
+
+    padding: 20px;
+
+    font-weight: 600;
+}
+
+.overview-icon {
+    font-size: 30px;
+}
+.overview-icon-container {
+    padding-top: 15px;
+}
+    
+@media(min-width:992px) {
+    .lessons-overview-container{
+    width: 64vw;
+    }
+}
+
+
+
