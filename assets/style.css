@@ -8,6 +8,14 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-heavy {
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6), 0 9px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
 /*----------------------------- Colours */
 
 header .current-page{
@@ -1049,6 +1057,52 @@ footer h5 {
     width: 64vw;
     }
 }
+
+/*--------------------------------------- Testimonials Section */
+
+.testimonials-background {
+    padding: 8vw 6vw;
+    height: 100%;
+}
+
+.testimonials-container {
+    background-color: #ffdfba;
+    border-radius: 20px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6), 0 9px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+.testimonials-container img {
+    width: 100%;
+    max-width: 86px;
+    max-height: 86px;
+
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonials-container p {
+    padding: 0 10px;
+}
+
+@media (min-width: 575px) {
+    .testimonials-container img {
+    margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonials-background {
+    padding: 6vw 2vw;
+    }
+}
+
 
 
 
