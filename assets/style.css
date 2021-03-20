@@ -1023,6 +1023,9 @@ footer h5 {
 
 /*--------------------------------------- Lessons Overview Section */
 
+#testimonials-section {
+    padding: 2vw
+}
 .lessons-overview-background {
     background: #0D3B51 url(images/lessons-background.jpg) no-repeat center;
     background-size: cover;
@@ -1099,10 +1102,42 @@ footer h5 {
 
 @media (min-width: 992px) {
     .testimonials-background {
-    padding: 6vw 4vw;
+    padding: 5vw 3vw;
     }
 }
 
 /*--------------------------------------- Example Lesson Section */
 
+.lesson-example-background {
+    padding: 3vw 2vw;
+}
 
+.example-video-container {
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+.example-lesson-promo-video-iframe {
+    width: 90%;
+    max-width: 400px;
+
+    display: block;
+    margin: 0 auto;
+
+    border: 0;
+    overflow: hidden;    
+}
+
+@media (min-width: 575px) {
+    .example-lesson-promo-video-iframe {
+    width: 36vw;
+    height: 20.25vw; 
+    }
+}
+
+@media (min-width:992px) {
+    .example-lesson-promo-video-iframe {
+    width: 32vw;
+    height: 18vw;
+    }
+}
