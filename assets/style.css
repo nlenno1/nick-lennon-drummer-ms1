@@ -1059,6 +1059,18 @@ footer h5 {
 .overview-icon-container {
     padding-top: 15px;
 }
+
+@media(min-width:400px) {
+    .lessons-overview-container{
+    padding: 20px 8vw;
+    }
+}
+
+@media(min-width:767px) {
+    .lessons-overview-container{
+    padding: 20px;
+    }
+}
     
 @media(min-width:992px) {
     .lessons-overview-container{
