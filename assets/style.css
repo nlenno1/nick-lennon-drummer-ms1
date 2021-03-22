@@ -533,10 +533,24 @@ footer h5 {
 /*---------------------------------------Upcoming Performances Section */
 
 #upcoming-performances-section {
-    height: 425px;
+    height: 100%;
     padding: 40px 0;
     background: url("images/performance-background.jpg") #1E5671 no-repeat center center fixed; 
     background-size: cover;
+}
+
+#upcoming-performances-section h2 {
+    margin: 0 auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 90%;
+    max-width: 380px;
+    background-color: #ffdfba;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 12px 40px 0 rgb(0 0 0 / 19%);
 }
 
  .performance-button {
@@ -616,19 +630,20 @@ footer h5 {
     body{
     width: 98vw;
     }
-}
-/*--- Reducing Future Performance Height--*/
-@media(min-width: 700px) {
-    #upcoming-performances-section {
-        height: 310px;
-    }
-}
+}--*/
+
+
 @media (min-width:992px) {
     /*-- body{
     width: 98vw;
     }
 
     /*-- Upcoming Performance Desktop Breakpoint Media Query --*/
+
+    #upcoming-performances-section h2 {
+    margin-top: 3vw;
+    }
+
     #performance-button-1 {
         background: url("images/performance-button-background-1.jpg") #1E5671 no-repeat center; 
     }
@@ -647,10 +662,13 @@ footer h5 {
     }
     
     #upcoming-performances-section {
-    height: 660px;
-    padding: 100px 50px;
+    height: 100%;
+    padding: 50px;
     }
-       
+    
+    .performance-cards-container {
+    margin: 40px 0;
+    }
 
     .performance-button {
     width: 90%;
