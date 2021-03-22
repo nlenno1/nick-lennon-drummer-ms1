@@ -725,6 +725,8 @@ footer h5 {
     height: 300px;
     width: 100%;
 
+    margin-bottom: 2rem;
+
     border-radius: 20px;
     background-color: #0D3B51;
     object-position: top;
@@ -735,9 +737,20 @@ footer h5 {
 
 
 .biography-text {
-    padding: 1rem 0;
     height: 100%;
-    color: #fafafa;
+}
+
+.biography-text i {
+    font-size: 20px;
+}
+
+.biography-text h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.biography-text p {
+    font-weight: 500;
 }
 
 #bio-section {
@@ -757,41 +770,44 @@ footer h5 {
 }
 
 .cv-download a:hover{
-    color: #FFDFBA;
+    color: #fafafa;
     font-weight: 400;
 }
 @media(min-width:575px) {
-    .profile-picture-container {
-        order: 2;
-
-    }
-
     #bio-section {
     padding-right: 1.6rem;
     }
 
     .biography-text {
-        order: 1;
-        padding: 1rem;
+        padding: 0;
+    }
+
+    .profile-picture {
+    height: 400px;
+    width: 50%;
+    float: right;
+    margin: 0 0.5rem;
     }
 }
 
 @media(min-width:749px) {
     #bio-section {
-    padding-right: 1.6rem;
+    padding: 3rem 2rem;
+    }
+    .profile-picture {
+    width: 45%;
+    margin: 0.5rem 1rem;
     }
 }
 
-@media(min-width:992px) {
-    .biography-text {
-        padding: 1rem 3rem;
-    }
-
+@media (min-width:1200px) {
     #bio-section {
-    padding-right: 4.2rem;
+    padding: 3rem 4rem;
+    }
+    .profile-picture {
+    margin: 1rem 0 0 0.5rem;
     }
 }
-
 
 /*--------------------------------------- Career Highlights Section */
 
