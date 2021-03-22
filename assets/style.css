@@ -351,6 +351,11 @@ footer h5 {
     display: block;
 }
 
+.what-i-do-button p{
+        margin: 0;
+        padding-top: 0.5rem;
+    }
+
 .lessons-button{
     padding-top: 5px;
 }
