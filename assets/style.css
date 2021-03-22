@@ -1024,6 +1024,7 @@ footer h5 {
 @media (min-width: 992px) {
     .timeline-container {
         padding: 0 2.5rem;
+        padding-top: 6vw;
     }
     .soundcloud-links {
     padding: 0;
@@ -1031,6 +1032,7 @@ footer h5 {
 
     .studio-credits-container {
     padding: 1rem 2.1rem;
+    padding-top: 6vw;
     }
 
     .album-cover {
@@ -1192,14 +1194,14 @@ footer h5 {
 
 @media (min-width: 992px) {
     .testimonials-background {
-    padding: 3vw;
+    padding: 7vw 3vw;
     }
 }
 
 /*--------------------------------------- Example Lesson Section */
 
 .lesson-example-background {
-    padding: 3vw 2vw;
+    padding: 3vw 2vw 9vw;
 }
 
 .example-video-container {
@@ -1231,5 +1233,8 @@ footer h5 {
     .example-lesson-promo-video-iframe {
     width: 32vw;
     height: 18vw;
+    }
+    .lesson-example-background {
+    padding: 7vw 2vw;
     }
 }
