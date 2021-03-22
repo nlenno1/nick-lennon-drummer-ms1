@@ -587,13 +587,14 @@ footer h5 {
 
 .performance-button-left {
     text-align: center;
+    padding-top: 5px;
     line-height: 75px;
     font-size: 50px;
     border-radius: 20px 0 0 20px;
 }
 
 .performance-button-center {
-    padding: 10px 5px 5px 5px;
+    padding-top: 1vw;
     text-align: center;
 
     transition: all 0.35s ease-in-out;
@@ -616,7 +617,6 @@ footer h5 {
     border-radius: 0 20px 20px 0;
     cursor: pointer;
     text-decoration: none;
-    line-height: 75px;
     color: #000;
 
     transition: all 0.35s ease-in-out;
@@ -674,18 +674,14 @@ footer h5 {
 
 /*---------------------------------------Media Queries */
 
-/*--@media (min-width:575px) {
-    body{
-    width: 98vw;
-    }
-}--*/
+@media (min-width:575px) {
+    .performance-button-center {
+    padding-top: 4px;
+    height: 71px;
+}
 
 
 @media (min-width:992px) {
-    /*-- body{
-    width: 98vw;
-    }
-
     /*-- Upcoming Performance Desktop Breakpoint Media Query --*/
 
     #upcoming-performances-section h2 {
