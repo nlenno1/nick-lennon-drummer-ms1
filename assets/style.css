@@ -740,8 +740,9 @@ footer h5 {
     height: 100%;
 }
 
-.biography-text i {
+.about-me-icon {
     font-size: 20px;
+    margin: 0 20px;
 }
 
 .biography-text h2 {
@@ -975,14 +976,14 @@ footer h5 {
 }
 @media (min-width: 992px) {
     .timeline-container {
-        padding: 3rem 2.5rem;
+        padding: 0 2.5rem;
     }
     .soundcloud-links {
     padding: 0;
     }
 
     .studio-credits-container {
-    padding: 3rem 2.1rem;
+    padding: 1rem 2.1rem;
     }
 
     .album-cover {
@@ -1037,7 +1038,6 @@ footer h5 {
 .promo-video-container {
     padding: 15vw 0;
 }
-
 
 @media(min-width:992px) {
     .lesson-promo-video-iframe{
