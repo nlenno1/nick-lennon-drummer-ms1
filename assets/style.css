@@ -6,7 +6,7 @@ body {
     padding: 0;
     background-color: #5C93AE;
     font-family: 'Overpass', sans-serif;
-    font-size: 500;
+    color: #000;
 }
 
 .shadow {
@@ -1040,20 +1040,25 @@ footer h5 {
 }
 @media (min-width: 992px) {
     .timeline-container {
-        padding: 0 2.5rem;
+        padding: 2.5rem;
         padding-top: 6vw;
     }
     .soundcloud-links {
-    padding: 0;
+    padding: 2vw 0;
     }
 
     .studio-credits-container {
-    padding: 1rem 2.1rem;
+    padding: 1rem;
     padding-top: 6vw;
+    }
+
+    .studio-credits-container h2 {
+    margin-bottom: 3rem;
     }
 
     .album-cover {
     padding: 10px;
+    width: 14vw;
     max-width: 200px;
     }
 
