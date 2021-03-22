@@ -418,7 +418,7 @@ footer h5 {
     padding: 5px;
     padding-bottom: 7.5px;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     max-width: 200px;
     background-color: #ffdfba;
@@ -604,8 +604,27 @@ footer h5 {
 
 /*---------------------------------------Live Performance Video Section */
 
+#live-performance-section {
+    padding: 3rem 1rem;
+}
+
+#live-performance-section h2 {
+    margin: 0 auto;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    width: 90%;
+    max-width: 380px;
+    background-color: #ffdfba;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 12px 40px 0 rgb(0 0 0 / 19%);
+}
+
+
 .video-container {
-    padding: 10vw 0;
+    padding: 30px 0;
 }
 
 .live-performance-iframe {
@@ -620,6 +639,12 @@ footer h5 {
 
     max-height: 540px;
     max-width: 960px;  
+}
+
+@media (min-width:575px) {
+    .video-container {
+    padding: 30px 0;
+    }
 }
 
 
@@ -721,6 +746,10 @@ footer h5 {
     .video-container {
         padding: 5vw 0;
     }
+
+    #live-performance-section h2 {
+    margin-bottom: 0;
+}
     
     .live-performance-iframe {
         width: 40vw;
