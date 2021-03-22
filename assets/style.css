@@ -952,18 +952,21 @@ footer h5 {
 }
 
 @media (min-width:575px) {
+    .timeline-container {
+    padding: 1rem 4rem;
+    }
+    
     .studio-credits-container h2 {
     margin-bottom: 1rem;
     }
 
     .album-cover {
-    max-width: 175px;
+    max-width: 210px;
     padding: 25px 5px;
     }
 
     .studio-credits-container {
-    padding: 1.6rem 1rem 1.8rem 5px;
-    text-align: center;
+    padding: 3rem 2.1rem;
     }
 
     .soundcloud-links {
@@ -972,10 +975,14 @@ footer h5 {
 }
 @media (min-width: 992px) {
     .timeline-container {
-        padding: 10px 30px;
+        padding: 3rem 2.5rem;
     }
     .soundcloud-links {
     padding: 0;
+    }
+
+    .studio-credits-container {
+    padding: 3rem 2.1rem;
     }
 
     .album-cover {
