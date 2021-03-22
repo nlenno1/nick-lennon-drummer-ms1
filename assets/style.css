@@ -111,7 +111,7 @@ header .current-page{
 @media (min-width:768px) {
     .navbar-nav {
     width: 33.33vw;
-    } 
+    }
 }
 
 @media (min-width:1200px) {
@@ -267,7 +267,7 @@ footer h5 {
 }
 
 #subtitle-overlay {
-    padding: 6px;
+    padding: 8px;
     border-radius: 10px;
     background-color: rgba(196,196,196,0.6);
     bottom:26%;
@@ -891,7 +891,7 @@ footer h5 {
 .timeline-background{
     height: 100%;
     width: 100%;
-    padding: 1rem; 
+    padding: 2rem 1rem; 
     margin: 0 auto;
 
     background-color: #FFDFBA;
