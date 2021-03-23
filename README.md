@@ -295,15 +295,18 @@ This is what I tested in each section:
     - Example lesson video links to correct YouTube video and allows full user interaction expected
     -  CV download link points to correct document, opens in a new tab and text colour is effected by hover
     
-I used some validator and responsiveness testing tools to evaluate my website. These were:
+I used some validator and responsiveness testing tools to evaluate my website. If any errors or warnings came up on these tests I reviewed and fixed them.
+
+The testing tools I used were:
     
-- [HTML Validator](https://validator.w3.org/)
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- [A11y](https://color.a11y.com/) to test site colours
-- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+- [HTML Validator](https://validator.w3.org/) - [HTML Validator Results]()
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - [CSS Validator Results]()
+- [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
+- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
 
+### Results and outcomesd
 
-### Results and outcomes
+All final tests produced good to excellent results.
 
 [Back to top](#nick-lennon---drummer)
 
