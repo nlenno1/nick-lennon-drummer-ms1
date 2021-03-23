@@ -2,7 +2,7 @@
 
 ![Preview](assets/readme-assets/website-mockup-min.png)
 
-[Link to the Live Project](https://"#"/)
+[Link to the Live Project](https://nlenno1.github.io/milestone-project-1/)
 
 # Table of Contents
 
@@ -267,13 +267,64 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 # Testing
 
-### Testing planning
-### Implementation
+For every section that I built in the project, I tested for responsiveness during construction and after completion. To do this I used [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/ "link to Google Chrome Developer Tools") to check that at all times the layout was how I expected it to be by dragging the screen width through all possible variaions while paying special attention to the predefined breakpoints. I also used the device models to make sure the page would provide a good UI and UX. 
+
+This is what I tested in each section:
+- NavBar
+    - Logo link points to index.html
+    - NavLinks point to the correct pages or sections
+    - Active page icon colour changes page to page
+    - NavLink icon hover effects icon colour
+- Footer
+    - Site map links points to the correct pages or sections
+    - Social links open a new tab in the browser and load the correct social media page
+    - Mailing List Sign Up email entry bar and submit button validates for correctly formatted email addresses and the input in required before the data is sent.
+- index.html
+    - What I Do buttons hover effects background colour
+    - Gallery corner images change relative to number of columns
+    - Upcoming performance links points to online ticket sales website and open in a new tab
+    - Upcoming performance cards hover (at desktop breakpoint) changes background to venue image
+    - Live performane video links to correct YouTube video and allows all users controls
+- about-me.html
+    - CV download link points to correct document, opens in a new tab and text colour is effected by hover
+    - Career highlights containers and icons are effected by hover
+    - Studio credits album images have drop down animation effected by hover
+    - Soundcloud Iframes point to correct soundcloud songs and allows full user interaction expected
+- lessons.html
+    - Lessons video advert plays automatically, muted and does not loop
+    - Example lesson video links to correct YouTube video and allows full user interaction expected
+    -  CV download link points to correct document, opens in a new tab and text colour is effected by hover
+    
+I used some validator and responsiveness testing tools to evaluate my website. These were:
+    
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [A11y](https://color.a11y.com/) to test site colours
+- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+
+
 ### Results and outcomes
 
 [Back to top](#nick-lennon---drummer)
 
 # Deployment
+
+All code was written on Gitpod, an online IDE.
+
+This project is deployed on GitHub Pages. 
+All my code was written using [Gitpod](https://www.gitpod.io/) and then pushed to a repository which was stored on my [Gitpod account](https://github.com/nlenno1/).
+
+This is the process I used to deploy my project:
+
+1. In my Github Repository I selected the settings tab and scrolled down to the GitHub Pages section.
+2. In the source section, for the branch dropdown menu, I selected "Master" and then clicked the save button.
+3. Once this process had been completed the website URL was displayed above the GitHub Pages section.
+
+This code can be run locally through a clone or downloaded as a zipfile to your local hard drive.
+The clone will provide a URL which you can use in any online IDE.
+To clone or download the repositary, you need to:
+1. Open the [repositary](https://github.com/nlenno1/milestone-project-1/).
+2. Click the code dropdown menu and select either "Clone" or "Download".
 
 [Back to top](#nick-lennon---drummer)
 
