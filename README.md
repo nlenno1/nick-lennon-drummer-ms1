@@ -205,23 +205,25 @@ Lessons Page (Figma):
 # Design
 
 ## Colour Scheme
-The main colours used throughout the website are a mixture of Blue primarily with Black, Sivler, White and Peach highlights.
+The main colours used throughout the website are a mixture of Blue primarily with Black, Silver, White and Peach highlights.
 
 The chosen colour scheme is to give the website a modern and friendly feel that will appeal to the wide demographic.
 
 ## Typography
-Using the fonts fonts [Manrope](https://fonts.google.com/specimen/Manrope "Link to Manrope Google Font") and [Lato](https://fonts.google.com/specimen/Lato "Link to Lato Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+This project uses the fonts Overpass for body text, PT Sans for H1 headings and Roboto Condensed for sub-headings. All of these fonts use Sans Serif as the fallback font in case of import failure. 
 
 ## Imagery
-The images used are all appropriate to the website and are vibrant and engaguing. Video ave been used to reduce the amount of text required in some sections.
-All imagery has alternative text this is used if the user is using a screen reader or if the image doesn't load.
+The images used are all appropriate to the website and are vibrant and engaguing. Videos have been used to reduce the amount of text required in some sections.
+All imagery has alternative text to accomodate the use of screen readers or if the image doesn't load.
 
 [Back to top](#nick-lennon---drummer)
 # Features
 
 ### Header 
 - Company logo - establishes the website identity and doubles as the home button for only the phone breakpoint
-- Navbar links with icons (which have the labels appearing on focus from the desktop breakpoint)
+- Navbar links with icons 
+- Fix Navbar to the top of the screen to allow quick navigation at all times 
+
 ### Footer
 - Footer  doubles as contact information (until contact page is implimented on next release)
 - Sign Up For Newsletter (not currently linked to a mailing server but it will be implemented on next release)
@@ -255,13 +257,19 @@ All imagery has alternative text this is used if the user is using a screen read
 # Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- HTML5
-- CSS3
-- Bootstrap v4.3.1
-- Google Chrome Dev tools for debugging
-- Google Light house for audits
-- Tiny Png to condense images
-- Original wireframes were created with Balsamiq and Figma (https://balsamiq.com/, https://www.figma.com/)
+- HTML5 - Programming Language
+- CSS3 - Programming Language
+- [Bootstrap v4.3.1](https://getbootstrap.com/) - Library Import
+- [Font Awesome](https://fontawesome.com/) - Icons Import
+- [Phosphor Icons](https://phosphoricons.com/) - Icons Import
+- [Google Fonts](https://fonts.google.com/) - Typography Import
+- [Git Pod](https://gitpod.io/) - IDE (Intergrated Development Enviroment)
+- [Git](https://git-scm.com/) - Version Control Tool
+- [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
+- [Google Chrome Development Tools](https://developer.chrome.com/docs/devtools/) - Development Tools
+- [Tiny Png](https://tinypng.com/) - Image Condenser
+- [Balsamiq](https://balsamiq.com/) - Wireframes
+- [Figma](https://www.figma.com/) - Wireframes
 
 [Back to top](#nick-lennon---drummer)
 
@@ -303,10 +311,13 @@ The testing tools I used were:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - [CSS Validator Results]()
 - [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
+- https://www.webpagetest.org/result/210323_XiPE_823011699fee64e1ac0319d0b160f385/
+- https://www.aliciaramirez.com/closing-tags-checker/
+
 
 ### Results and outcomesd
 
-All final tests produced good to excellent results.
+All final tests produced good to excellent results apart from........
 
 [Back to top](#nick-lennon---drummer)
 
@@ -333,36 +344,65 @@ To clone or download the repositary, you need to:
 
 # Bugs and Issues
 
+- While creating the footer I had some issues with spacing and objexts being pushed where I didnt want them. After some research through the Bootstrap documentation, I realised this was because the .row class was adding extra padding so to remove this is used the .g-0 class to remove all the gutters.
+- Page layout was extending under the scroll bar on the right hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own seperate div which was causing the horixontal overflow.
+- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
+- Biography text was not wrapping round the Profile Picture. This was because they were in seperate Bootstrap .col classes so to fix this I put them in the same column and then floated the image to the right.
+- Album Covers were not displying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width dimishes.
+- Soundcloud Iframe were stealing focus when loaded. After some reasearch on the soundcloud website I learnt that the autoplay value was automatically set to true so I changed this value to false to fix the bug.
+- At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was to small.
+- The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
+
 [Back to top](#nick-lennon---drummer)
 
 # Credits
+
+Code snippets
+- NavBar template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) and customised
+
+Resources
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Code fundamental learning platform
+- Code Institude Slack Community and Tutor network
+- [W3 Schools](https://www.w3schools.com/) - Learning resource
+- [CSS-Tricks](https://css-tricks.com/) - Learning and bug fixing resource
+- [Stack Overflow](https://stackoverflow.com/) - Bug fixing research
+- [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/) - Inspiration for colour scheme
+
 
 ## Content
 
 All text content on this site is original to the project.
 
-Fontawesome and Phosphor Icons were used for the icons throughout (https://fontawesome.com/ https://phosphoricons.com/)
+### Media
+All the images that were used during the development of this site are either original images or taken from Pixabay
 
-[Back to top](#nick-lennon---drummer)
+Drumming related images:
+- [Live Performances Background](https://pixabay.com/photos/drums-live-dancing-entertainment-755530/)
+- [Lessons Background](https://pixabay.com/photos/drummer-drum-set-drums-music-5229705/)
+- [Spare Background](https://pixabay.com/photos/drums-drum-pool-snare-drum-2778190/)
 
-## Media
-All my images that were used during the development of this site is original content or taken from Pixabay
+Venue images:
+- [Park](https://pixabay.com/photos/concert-park-venue-music-artist-4634009/)
+- [Theatre](https://pixabay.com/photos/metz-france-opera-theatre-interior-86226/)
+- [Jazz Club](https://pixabay.com/photos/performance-music-musician-concert-3202707/)
+- [Rock Venue](https://pixabay.com/photos/guitar-rock-music-concert-sound-2006563/)
 
-Drumming related:
-- https://pixabay.com/photos/drums-live-dancing-entertainment-755530/
-- https://pixabay.com/photos/drums-drum-pool-snare-drum-2778190/
-- https://pixabay.com/photos/drummer-drum-set-drums-music-5229705/
-
-Venues:
-- https://pixabay.com/photos/concert-park-venue-music-artist-4634009/
-- https://pixabay.com/photos/metz-france-opera-theatre-interior-86226/
-- https://pixabay.com/photos/performance-music-musician-concert-3202707/
-- https://pixabay.com/photos/guitar-rock-music-concert-sound-2006563/
+Testimonial images:
+- [Female](https://pixabay.com/photos/baby-bodysuit-female-girl-holding-22018/)
+- [Young Male](https://pixabay.com/photos/man-fashion-brick-wall-pose-model-6018417/)
+- [Older Male](https://pixabay.com/photos/man-male-beard-hat-woolly-hat-1146530/)
 
 [Back to top](#nick-lennon---drummer)
 
 ## Acknowledgements
-Readme template used to produce this documentation is from https://github.com/Code-Institute-Solutions/readme-template
-with additional guidance taken from https://github.com/nemixu/Milestone1/blob/master/README.md and https://github.com/rebeccatraceyt/KryanLive.
+
+Structurally redesigned Gallery layout inspiration from Love Running Mini-Project in CSS Module of Code Institutes Full Stack Developer Course.
+
+Readme template used to produce this documentation is from [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
+
+Additional guidance taken from 
+ - https://github.com/nemixu/Milestone1
+ - https://github.com/rebeccatraceyt/KryanLive
+ - https://github.com/JimLynx/CI-MS1-Explore-Ireland
 
 [Back to top](#nick-lennon---drummer)
