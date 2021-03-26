@@ -315,7 +315,7 @@ The testing tools I used were:
 - https://www.aliciaramirez.com/closing-tags-checker/
 
 
-### Results and outcomesd
+### Results and outcomes
 
 All final tests produced good to excellent results apart from........
 
@@ -334,11 +334,24 @@ This is the process I used to deploy my project:
 2. In the source section, for the branch dropdown menu, I selected "Master" and then clicked the save button.
 3. Once this process had been completed the website URL was displayed above the GitHub Pages section.
 
-This code can be run locally through a clone or downloaded as a zipfile to your local hard drive.
-The clone will provide a URL which you can use in any online IDE.
-To clone or download the repositary, you need to:
-1. Open the [repositary](https://github.com/nlenno1/milestone-project-1/).
-2. Click the code dropdown menu and select either "Clone" or "Download".
+This code can be clones or forked from the [GitHub repositary](https://github.com/nlenno1/milestone-project-1/).
+
+## Forking the Repository
+When you fork the repository you create a copy of the original repositary on your own GitHub account to view and edit without effect the original.
+To Fork something you need to:
+
+1. Log into your GitHub account or create one.
+2. Open the [repositary](https://github.com/nlenno1/milestone-project-1/).
+3. Click the "Fork" button which is located on the right hand side of the screen just below your user icon.
+4. The fork should load and save to your GitHub account.
+
+## Cloning the Repository
+To clone the repository, you first need to:
+
+1. Install the GitPod Browser Extension for Chrome (including restarting the browser).
+2. Log into your GitHub or create an account.
+3. Find the GitHub Repository that you want to clone.
+4. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new GitPod workspace to be created.
 
 [Back to top](#nick-lennon---drummer)
 
