@@ -1084,13 +1084,14 @@ footer h5 {
         height: 325px;
         border-radius: 20px 20px 0 0;
         padding: 20px 15px;
-        background-color: #FFDFBA;
+        color:#fff;
+        background-color: rgba(0, 0, 0, 0.25);
     }
 
     .performance-button-center h4 {
         font-size: 30px;
         padding-bottom: 1rem; 
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #fafafa;
     }
 
     .performance-button-center p {
@@ -1104,21 +1105,24 @@ footer h5 {
         font-size: 25px;
         border-top: 1px dashed #000;
         background-color: #FFDFBA;
-    }
-
-    .performance-button:hover .performance-button-right {
         color:#fff;
         background-color: rgba(0, 0, 0, 0.85);
         border-top: 1px solid rgba(0, 0, 0, 0.9);
     }
 
+    .performance-button:hover .performance-button-right {
+        color:#000;
+        border-top: 1px dashed #000;
+        background-color: #FFDFBA;
+    }
+
     .performance-button:hover .performance-button-center {
-        color:#fff;
-        background-color: rgba(0, 0, 0, 0.25);
+        color:#000;
+        background-color: #ffdfba;
     }
 
     .performance-button:hover .performance-button-center h4 {
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #000;
     }
 
     /*-- Live Performance Video Queries---*/
