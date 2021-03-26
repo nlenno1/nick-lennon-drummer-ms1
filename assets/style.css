@@ -27,6 +27,10 @@ header .current-page{
     color: #1E5671;
 }
 
+.colour-white {
+    color:#fafafa;
+}
+
 /*----------------------------- NavBar */
 
 .navbar {
@@ -114,10 +118,10 @@ footer h5 {
 .social-links a{
     color:#fafafa;
     text-decoration: none;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
 }
 
 .social-links a:hover{
@@ -133,6 +137,19 @@ footer h5 {
     padding-top: 1rem;
 }
 
+.email-link {
+    text-decoration: 0;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.email-link:hover {
+    color: #5C93AE;
+}
+
 .copyright {
     text-align: center;
 }
@@ -143,7 +160,7 @@ footer h5 {
 
 .site-map>h5{
     margin: 0;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 .map-list {
     list-style-type: none;
