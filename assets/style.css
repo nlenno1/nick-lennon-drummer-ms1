@@ -31,6 +31,10 @@ header .current-page{
     color:#fafafa;
 }
 
+.colour-black {
+    color:#000;
+}
+
 /*----------------------------- NavBar */
 
 .navbar {
