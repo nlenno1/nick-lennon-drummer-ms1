@@ -113,13 +113,13 @@ footer h5 {
     margin: 0;
 }
 
-.social-links li{
+.social-links li {
     display: inline-block;
     font-size: 1.6rem;
     padding: 0 1rem;
 }
 
-.social-links a{
+.social-links a {
     color:#fafafa;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -128,7 +128,7 @@ footer h5 {
     -o-transition: all 0.2s ease-in-out;
 }
 
-.social-links a:hover{
+.social-links a:hover {
     color: #5C93AE;
 }
 
@@ -158,11 +158,11 @@ footer h5 {
     text-align: center;
 }
 
-.site-map{
+.site-map {
     padding-left:4rem;
 }
 
-.site-map>h5{
+.site-map>h5 {
     margin: 0;
     padding-top: 2rem;
 }
@@ -173,12 +173,12 @@ footer h5 {
     font-size: 12px;
 }
 
-.map-list a{
+.map-list a {
     text-decoration: none;
     color:#fafafa;
 }
 
-.map-list li{
+.map-list li {
     border-right: 1px solid #fafafa;
     margin-right: 2rem;
 }
@@ -201,6 +201,45 @@ footer h5 {
 
 .email-input, .submit {
     margin: 0.2rem 0;
+}
+
+/*----------------------------- Contact Modal */
+
+.modal-content {
+    background-color: rgba(196, 196, 196, 1);
+}
+
+.modal-title {
+    margin-bottom: -5px;
+}
+
+.model-body-padding {
+    padding: 2rem 1rem 2.2rem;
+}
+
+.modal-header {
+    background-color: #5C93AE;
+    border-bottom: 1px solid #000;
+}
+
+.model-break {
+    width: 75px;
+    margin: 1.5rem auto;
+    color: #000;
+}
+
+#modal-social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#modal-email-button {
+    background-color: #ffdfba;
+    color: #000;
+    border-color: #ffdfba;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 12px 40px 0 rgb(0 0 0 / 19%);
 }
 
 /*----------------------------- Hero Image */
