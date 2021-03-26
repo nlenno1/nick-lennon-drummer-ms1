@@ -19,7 +19,7 @@ h2 h3 h4 h5 {
 
 /*----------------------------- Colours */
 
-header .current-page{
+header .current-page {
     color:#5C93AE;
 }
 
@@ -94,7 +94,7 @@ header .current-page{
 
 /*----------------------------- Footer */
 
-footer{
+footer {
     color:#fafafa;
     background-color:#0D3B51;
 }
@@ -244,7 +244,7 @@ footer h5 {
 
 /*----------------------------- Hero Image */
 
-#hero-image{
+#hero-image {
     height: 320px;
     background: url("images/nick-lennon-hero-image.jpg") #1E5671 no-repeat center center; 
     background-size: cover;
@@ -260,7 +260,7 @@ footer h5 {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-#title-overlay, #subtitle-overlay{
+#title-overlay, #subtitle-overlay {
     color: #fafafa;
     position: absolute;
 }
@@ -300,7 +300,7 @@ footer h5 {
     height: 100%;
 }
 
-.what-i-do-container li{
+.what-i-do-container li {
     text-align: center;
 }
 
@@ -356,7 +356,7 @@ footer h5 {
     text-align: center;
 }
 
-.gallery-container h2{
+.gallery-container h2 {
     margin: 0 auto;
     margin-bottom: 3vw;
     margin-top: 1vw;
@@ -473,7 +473,6 @@ footer h5 {
     cursor: pointer;
     text-decoration: none;
     color: #000;
-
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -554,7 +553,7 @@ footer h5 {
     height: 100%;
 }
 
-.cv-download a{
+.cv-download a {
     color: #000;
     text-decoration: none;
     font-weight: 400;
@@ -564,19 +563,19 @@ footer h5 {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-download a:hover{
+.cv-download a:hover {
     color: #fafafa;
     font-weight: 400;
 }
 
 /*--------------------------------------- Career Highlights Section */
 
-.timeline-container{
+.timeline-container {
     height: 100%;
     padding: 1rem;
 }
 
-.timeline-background{
+.timeline-background {
     height: 100%;
     width: 100%;
     padding: 2rem 1rem; 
@@ -587,7 +586,7 @@ footer h5 {
     text-align: center;
 }
 
-.fa-dot-circle:before{
+.fa-dot-circle:before {
     position: absolute;
     left: -11px;
     top: 60px;
@@ -622,7 +621,7 @@ footer h5 {
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.6), 0 9px 30px 0 rgba(0, 0, 0, 0.4);
 }
 
-.timeline-item:hover .fa-dot-circle:before{
+.timeline-item:hover .fa-dot-circle:before {
     font-size: 25px;
     left: -13.5px;
     top: 55.5px;
@@ -813,7 +812,7 @@ footer h5 {
 /*----------------------------- Large Phone Queries --*/
 @media(min-width:400px) {
     /*-- Lesson Overview Queries --*/
-    .lessons-overview-container{
+    .lessons-overview-container {
     padding: 20px 8vw;
     }
 }
@@ -850,21 +849,21 @@ footer h5 {
     }
 
     /*--What I Do Queries--*/
-    .what-i-do-button{
+    .what-i-do-button {
         min-height: 150px;
         min-width: 150px;
         margin: 40px auto;
     }
 
-    .what-i-do-button i{
+    .what-i-do-button i {
         font-size: 3.1rem;
     }
 
-    .what-i-do-button p{
+    .what-i-do-button p {
         font-size: 1.2rem;
     }
     
-    .what-i-do-button div{
+    .what-i-do-button div {
         margin-top: 12px;
     }
 
@@ -873,7 +872,7 @@ footer h5 {
     padding: 30px 0;
     }
 
-    .performance-button-center{
+    .performance-button-center {
     padding-top: 4px;
     height: 71px;
     }
@@ -964,7 +963,7 @@ footer h5 {
     }
 
     /*-- Lesson Overview Queries --*/
-    .lessons-overview-container{
+    .lessons-overview-container {
     padding: 20px;
     }
 }
@@ -982,13 +981,13 @@ footer h5 {
     .sm-tr-corner {
         border-radius: 0;
     }
-    .md-tr-corner{
+    .md-tr-corner {
         border-radius: 0 10px 0 0;
     }
     .sm-br-corner {
         border-radius: 0;
     }
-    .md-br-corner{
+    .md-br-corner {
         border-radius: 0 0 10px 0;
     }
 }
@@ -1004,7 +1003,7 @@ footer h5 {
     padding-top: 0;
     }
 
-    .social-links li{
+    .social-links li {
     font-size: 2rem;
     }
 
@@ -1028,17 +1027,17 @@ footer h5 {
     .md-tr-corner {
         border-radius: 0;
     }
-    .lg-tr-corner{
+    .lg-tr-corner {
         border-radius: 0 10px 0 0;
     }
     .md-br-corner {
         border-radius: 0;
     }
-    .lg-br-corner{
+    .lg-br-corner {
         border-radius: 0 0 10px 0;
     }
 
-    .gallery-container h2{
+    .gallery-container h2 {
         margin-bottom: 30px;
     }
 
@@ -1194,7 +1193,7 @@ footer h5 {
     }
 
     /*-- Lesson Promo Video Queries --*/
-    .lesson-promo-video-iframe{
+    .lesson-promo-video-iframe {
     width: 68vw;
     height: 38.25vw;
     }
@@ -1203,7 +1202,7 @@ footer h5 {
     }
 
     /*-- Lesson Overview Queries --*/    
-    .lessons-overview-container{
+    .lessons-overview-container {
     width: 68vw;
     }
     .lessons-overview-background {
