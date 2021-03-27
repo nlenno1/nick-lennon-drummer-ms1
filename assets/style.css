@@ -147,11 +147,7 @@ footer h5 {
 }
 
 .email-link {
-	text-decoration: 0;
-}
-
-.email-link a {
-	text-decoration: 0;
+	text-decoration: none;
 	font-size: 1rem;
 	transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -159,7 +155,7 @@ footer h5 {
 	-o-transition: all 0.2s ease-in-out;
 }
 
-.email-link a:hover {
+.email-link:hover {
 	color: #5C93AE;
 }
 
