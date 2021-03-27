@@ -382,7 +382,7 @@ The testing tools I used were:
 ![HTML index.html Validator Results](assets/readme-assets/w3-validator-results-index.png)
 ![HTML about-me.html Validator Results](assets/readme-assets/w3-validator-results-about-me.png)
 ![HTML lessons.html Validator Results](assets/readme-assets/w3-validator-results-lessons.png)
-- [CSS Validator](https://jigsaw.w3.org/css-validator/) - [CSS Validator Results]()
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) - ![CSS Validator Results](assets/readme-assets/w3-css-validator-results.png)
 - [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
 - [LightHouse](https://developers.google.com/web/tools/lighthouse) - ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
@@ -391,7 +391,12 @@ The testing tools I used were:
 
 ### Results and outcomes
 
-All final tests produced good to excellent results apart from........
+All final tests produced good to excellent results apart from a few warnings from the HTML validator about not having section titles. 
+
+The sections in question contain:
+- Lesson promotions video - which has a title in the auto playing video, 
+- What I Do Navigational Icons - which don't need a title as they are navigational items 
+- Testimonials - which support the content next to it and therefore shares its title.
 
 [Back to top](#nick-lennon---drummer)
 
@@ -432,7 +437,7 @@ To clone the repository, you first need to:
 # Credits
 
 Code snippets
-- NavBar template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) and customised
+- NavBar and Modal template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) and customised
 
 Resources
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Code fundamental learning platform
