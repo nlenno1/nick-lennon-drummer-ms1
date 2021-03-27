@@ -895,7 +895,13 @@ footer h5 {
 	.performance-button-center {
 		padding-top: 4px;
 		height: 71px;
-	}
+    }
+    .performance-button-center h4 {
+        height: 89px;
+    }
+    .single-text-line {
+        padding-top: 1.1rem;
+    }
 	/*-- Bio Media Queries --*/
 	#bio-section {
 		padding-right: 1.6rem;
