@@ -17,9 +17,10 @@
 5. [Features](#features)
 6. [Technologies Used](#technologies-used)
 7. [Testing](#testing)
-8. [Deployment](#deployment)
-9. [Bugs and Issues](#bugs-and-issues)
-10. [Credits](#credits)
+8. [Bugs and Issues](#bugs-and-issues)
+9. [Validation](#validation)
+10. [Deployment](#deployment)
+11. [Credits](#credits)
 
 ***
 
@@ -221,11 +222,12 @@ All imagery has alternative text to accomodate the use of screen readers or if t
 
 ### Header 
 - Company logo - establishes the website identity and doubles as the home button for only the phone breakpoint
-- Navbar links with icons 
+- Navbar links with icons provides easy navigation to the desired information.
 - Fix Navbar to the top of the screen to allow quick navigation at all times 
-
+- Contact Modal to display all needed contact information quickly and giving the user a quick way to send the client an email.
 ### Footer
-- Footer  doubles as contact information (until contact page is implimented on next release)
+- Footer reienforces the contact information to support the Contact Modal (until contact page is implimented on next release)
+- Footer email address is a link to open the users email software with a preformed email ready to edit and send to make contact easier.
 - Sign Up For Newsletter (not currently linked to a mailing server but it will be implemented on next release)
 - Site Map (only on Desktop breakpoint) to allow easier easier acces to specific information and some exploration
 ### index.html
@@ -241,8 +243,8 @@ All imagery has alternative text to accomodate the use of screen readers or if t
 - Basic CV Download - A stripped down CV PDF download to allow recruiters to retain a copy of it for future reference
 ### lessons.html
 - Lesson Video Advert - A short advert for the clients tutoring service. The video plays but muted to draw the user in but all the important information is displayed on the screen in text.
-- Lessons Overview - A revision of the main points from the video with clear icons to enable faster understanding
-- Testimonials - Short statements from current pupils to persuade users to sign up for a lesson
+- Lessons Overview - A revision of the main points from the video with clear icons to enable faster understanding with the contact email link to facilitate quick messaging if the user wants to get in touch.
+- Testimonials - Short statements from current pupils or pupil's parents to persuade users to sign up for a lesson
 - Example lesson - A short video lesson to act as an example of the clients services with a brief introduction and a download link to supporting documentation
 
 ## Features Left to Implement
@@ -254,11 +256,25 @@ All imagery has alternative text to accomodate the use of screen readers or if t
 
 [Back to top](#nick-lennon---drummer)
 
+# Bugs and Issues
+
+- While creating the footer I had some issues with spacing and objexts being pushed where I didnt want them. After some research through the Bootstrap documentation, I realised this was because the .row class was adding extra padding so to remove this is used the .g-0 class to remove all the gutters.
+- Page layout was extending under the scroll bar on the right hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own seperate div which was causing the horixontal overflow.
+- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
+- Biography text was not wrapping round the Profile Picture. This was because they were in seperate Bootstrap .col classes so to fix this I put them in the same column and then floated the image to the right.
+- Album Covers were not displying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width dimishes.
+- Soundcloud Iframe were stealing focus when loaded. After some reasearch on the soundcloud website I learnt that the autoplay value was automatically set to true so I changed this value to false to fix the bug.
+- At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was to small. This bug also happened with the Logo in the NavBar which was resolved using the same method.
+- The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
+
+[Back to top](#nick-lennon---drummer)
+
 # Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - HTML5 - Programming Language
 - CSS3 - Programming Language
+- JavaScript - Programming Language (for the Contact Modal)
 - [Bootstrap v4.3.1](https://getbootstrap.com/) - Library Import
 - [Font Awesome](https://fontawesome.com/) - Icons Import
 - [Phosphor Icons](https://phosphoricons.com/) - Icons Import
@@ -267,7 +283,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Git](https://git-scm.com/) - Version Control Tool
 - [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
 - [Google Chrome Development Tools](https://developer.chrome.com/docs/devtools/) - Development Tools
-- [Tiny Png](https://tinypng.com/) - Image Condenser
+- [Compress Png](https://compresspng.com/) - Image Condenser
 - [Balsamiq](https://balsamiq.com/) - Wireframes
 - [Figma](https://www.figma.com/) - Wireframes
 
@@ -302,8 +318,63 @@ This is what I tested in each section:
     - Lessons video advert plays automatically, muted and does not loop
     - Example lesson video links to correct YouTube video and allows full user interaction expected
     -  CV download link points to correct document, opens in a new tab and text colour is effected by hover
-    
-I used some validator and responsiveness testing tools to evaluate my website. If any errors or warnings came up on these tests I reviewed and fixed them.
+
+## Device Testing
+
+### Mobile Testing
+Testing on the **Galaxy Fold** with its **280px screen width** did cause some issues when compressing elements down to that width, for example the What I Do Nav buttons were too wide and the NavBar was spreading onto 2 lines. 
+To fix any of these issues I created a max-width attribute of the original size in px and then added a width attriute of a percentage in the element's CSS. This meant that when the element was too large it would scale down to the percentage of the space it had however, it would not get too big at the larger screen sizes.
+
+To test the website at the **Mobile breakpoint**, I focused on using the **Iphone 5/SE (320px)** for the **smaller phones** and the **Iphone 6/7/8 Plus (414px)** for the **larger phones**.
+All other mobile breakpoints fit into this range of screen sizes, apart from the Galaxy Fold, so therefore felt it was a good range to work with.
+As this project was designed mobile first the were very few mobile only bugs or issues as it was the first breakpoint to be built.
+
+I also used my own **Samsung Galaxy S10 (360px)** for the mobile device testing, as this is roughly the median of the range I tested on Dev Tools, to check that all elemts were accessible when used in the real world, away from Google Chrome Dev Tools.
+
+### Tablet Testing
+To test the project on a tablet, I used the **Ipad (768px)** breakpoint on Google Chrome Dev Tools as it is a very generic size and has the tablet shroud on it to help with scaling the elements.
+Throughout this testing, I discovered some spacing issues which were corrected with **Media Queries** at the specific breakpoints.
+
+I also used my own **Samsung Galaxy Tab 4 (800px)** for physical user testing.
+
+### Desktop testing
+
+During development, Desktop testing either used my **default screen size (1024px)** or the 1440px breakpoint in Google Chrome Dev Tools. This was to enable users who have bigger screens than myself to still have the best UI and UX possible.
+There were some spacing issues at the larger screen size so again I used **Media Queries** at **min-width:1200px**to solve these issues.
+
+For real world testing, I used an external 1440px monitor to make sure the display was as expected.
+
+## 3rd Party Testing
+
+I asked a selection of collegues and family members to acces the project on their devices and no compatability errors were reported. Feedback on the UI and UX was very positive.
+
+## Browser Testing
+
+I tested the page on on the following desktop browers to check for accesability and compatability:
+
+- Chrome
+- Edge
+- IE 11
+- Firefox
+- Safari 
+- Opera
+
+All of these browsers has no compatability issues.
+
+
+[Back to top](#nick-lennon---drummer)
+
+## Peer review
+
+I submitted my project for peer reviewing and this is the feedback that I recieved :
+- a
+- b 
+- c
+- d
+
+# Validation
+
+I used some validator and responsiveness testing tools to evaluate the project.
 
 The testing tools I used were:
     
@@ -311,9 +382,9 @@ The testing tools I used were:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - [CSS Validator Results]()
 - [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
-- https://www.webpagetest.org/result/210323_XiPE_823011699fee64e1ac0319d0b160f385/
-- https://www.aliciaramirez.com/closing-tags-checker/
+- [LightHouse](https://developers.google.com/web/tools/lighthouse) - ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
 
+[Back to top](#nick-lennon---drummer)
 
 ### Results and outcomes
 
@@ -352,19 +423,6 @@ To clone the repository, you first need to:
 2. Log into your GitHub or create an account.
 3. Find the GitHub Repository that you want to clone.
 4. Click the green "GitPod" button in the top right corner of the repository. This will trigger a new GitPod workspace to be created.
-
-[Back to top](#nick-lennon---drummer)
-
-# Bugs and Issues
-
-- While creating the footer I had some issues with spacing and objexts being pushed where I didnt want them. After some research through the Bootstrap documentation, I realised this was because the .row class was adding extra padding so to remove this is used the .g-0 class to remove all the gutters.
-- Page layout was extending under the scroll bar on the right hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own seperate div which was causing the horixontal overflow.
-- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
-- Biography text was not wrapping round the Profile Picture. This was because they were in seperate Bootstrap .col classes so to fix this I put them in the same column and then floated the image to the right.
-- Album Covers were not displying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width dimishes.
-- Soundcloud Iframe were stealing focus when loaded. After some reasearch on the soundcloud website I learnt that the autoplay value was automatically set to true so I changed this value to false to fix the bug.
-- At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was to small.
-- The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
 
 [Back to top](#nick-lennon---drummer)
 
