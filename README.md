@@ -378,7 +378,10 @@ I used some validator and responsiveness testing tools to evaluate the project.
 
 The testing tools I used were:
     
-- [HTML Validator](https://validator.w3.org/) - [HTML Validator Results]()
+- [HTML Validator](https://validator.w3.org/) - 
+![HTML index.html Validator Results](assets/readme-assets/w3-validator-results-index.png)
+![HTML about-me.html Validator Results](assets/readme-assets/w3-validator-results-about-me.png)
+![HTML lessons.html Validator Results](assets/readme-assets/w3-validator-results-lessons.png)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - [CSS Validator Results]()
 - [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
