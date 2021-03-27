@@ -357,9 +357,11 @@ footer h5 {
 
 #gallery {
 	padding: 12px;
-	column-count: 2;
-	column-gap: 0px;
-	height: 600px;
+	height: 650px;
+}
+
+#gallery .col {
+    max-height: 100%;
 }
 
 .gallery-container {
@@ -941,9 +943,6 @@ footer h5 {
 		width: 50vw;
 	}
 	/*--Gallery Queries--*/
-	#gallery {
-		column-count: 3;
-	}
 	.tr-corner {
 		border-radius: 0;
 	}
@@ -982,9 +981,6 @@ footer h5 {
 		width: 33.33vw;
 	}
 	/*--Gallery Queries--*/
-	#gallery {
-		column-count: 4;
-	}
 	.sm-tr-corner {
 		border-radius: 0;
 	}
@@ -1021,9 +1017,6 @@ footer h5 {
 		margin: 50px auto;
 	}
 	/*--Gallery Queries--*/
-	#gallery {
-		column-count: 5;
-	}
 	.gallery-container {
 		padding: 0 16px 64px 16px;
 		margin: 0;
