@@ -7,7 +7,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [UX](#ux)
+2. [User Experience](#user-experience-(ux))
 3. [Development Planes](#development-planes)
     - [Strategy](#strategy)
     - [Scope](#scope)
@@ -16,11 +16,18 @@
 4. [Design](#design)
 5. [Features](#features)
 6. [Technologies Used](#technologies-used)
-7. [Testing](#testing)
+7. [Search Engine Optimisation (SEO)](#search-engine-optimisation-(seo))
 8. [Bugs and Issues](#bugs-and-issues)
-9. [Validation](#validation)
-10. [Deployment](#deployment)
-11. [Credits](#credits)
+9. [Testing](#testing)
+    - [Device Testing](#device-testing)
+    - [Peer Review Testing](#peer-review-testing)
+    - [Browser Testing](#browser-testing)
+    - [User Stories Testing](#user-stories-testing)
+10. [Validation](#validation)
+11. [Deployment](#deployment)
+12. [Credits](#credits)
+    - [Content](#content)
+    - [Acknowledgements](#acknowledgements)
 
 ***
 
@@ -34,7 +41,7 @@ This is the first of four Milestone Projects that make up the Full Stack Web Dev
 
 [Back to top](#nick-lennon---drummer)
 
-# UX
+# User Experience (UX) 
 ### Project Goals
 - To produce a well-designed and engaging website to advertise all services in the most efficient way possible
 - To make it easy for users to navigate and access all the information they need.
@@ -272,6 +279,8 @@ All imagery has alternative text to accomodate the use of screen readers or if t
 - [Compress Png](https://compresspng.com/) - Image Condenser
 - [Balsamiq](https://balsamiq.com/) - Wireframes
 - [Figma](https://www.figma.com/) - Wireframes
+- [XML Sitemaps](https://www.xml-sitemaps.com/) - Search Engine Optimisation
+- [Google Search Console](https://search.google.com/search-console/about) - Search Engine Optimisation
 
 [Back to top](#nick-lennon---drummer)
 # Search Engine Optimisation (SEO)
@@ -294,6 +303,10 @@ To optimize your website using Google Search Console you need to:
 3. Download the generated file,
 4. Upload the file to the root of your repository,
 5. On the Google Search Console, click Verify,
+
+This console will allow you to monitor how your page is performing on Google's searches.
+
+[Back to top](#nick-lennon---drummer)
 
 # Bugs and Issues
 
@@ -340,6 +353,8 @@ This is what I tested in each section:
     - Example lesson video links to correct YouTube video and allows full user interaction expected
     -  CV download link points to correct document, opens in a new tab and text colour is effected by hover
 
+[Back to top](#nick-lennon---drummer)
+
 ## Device Testing
 
 ### Mobile Testing
@@ -365,6 +380,8 @@ There were some spacing issues at the larger screen size so again I used **Media
 
 For real world testing, I used an external 1440px monitor to make sure the display was as expected.
 
+[Back to top](#nick-lennon---drummer)
+
 ## Peer Review Testing
 
 I asked a selection of collegues (via slack) and family members to access the project on their device:
@@ -380,6 +397,8 @@ To respond to this feedback I:
 - Reviewed the Upcoming Performance Cards, added a height attribute to the heading class to make them all consistent and then added some extra padding to the single line headings, with the custom class "one-line", to vertically center the text,
 - Changed the suggested miss spelling and ran a spell checker to find anymore in the README.md,
 
+[Back to top](#nick-lennon---drummer)
+
 ## Browser Testing
 
 I tested the page on on the following desktop browers to check for accesability and compatability:
@@ -393,7 +412,7 @@ All of these browsers has no compatability issues.
 
 [Back to top](#nick-lennon---drummer)
 
-##User Stories Testing
+## User Stories Testing
 
 As a **Potential Student**;
 - Immediatly upon loading the website I can see at least 1 link to more information about lessons, either in the Navigation Bar or the What I Do section,
@@ -431,6 +450,8 @@ As a **Fan** who saw the client perform:
 
 As a result of this testing I have found that all the different target demographics needs are met in this website while maintaing good UX principles.
 
+[Back to top](#nick-lennon---drummer)
+
 # Validation
 
 I used some validator and responsiveness testing tools to evaluate the project.
@@ -445,8 +466,6 @@ The testing tools I used were:
 - [A11y](https://color.a11y.com/) to test site colours - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
 - [LightHouse](https://developers.google.com/web/tools/lighthouse) - ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
-
-[Back to top](#nick-lennon---drummer)
 
 ### Results and outcomes
 
@@ -542,5 +561,7 @@ Additional guidance taken from
  - https://github.com/nemixu/Milestone1
  - https://github.com/rebeccatraceyt/KryanLive
  - https://github.com/JimLynx/CI-MS1-Explore-Ireland
+
+A big thank you to my **mentor** and the **CI Slack Community** who have offered support and encouragement over the building of this project.
 
 [Back to top](#nick-lennon---drummer)
