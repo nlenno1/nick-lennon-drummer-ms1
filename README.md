@@ -344,9 +344,20 @@ There were some spacing issues at the larger screen size so again I used **Media
 
 For real world testing, I used an external 1440px monitor to make sure the display was as expected.
 
-## 3rd Party Testing
+## Peer Review Testing
 
-I asked a selection of collegues and family members to acces the project on their devices and no compatability errors were reported. Feedback on the UI and UX was very positive.
+I asked a selection of collegues (via slack) and family members to access the project on their device:
+The feedback from this was:
+
+- Safari browser has a bug with the gallery section overflowing (Maggie Walsh),
+- The object spacing on the Upcoming Performance cards is not consistent (Dorimanolova),
+- Spelling errors in the README.md file (Matthew Elstone),
+
+To respond to this feedback I:
+
+- Did some reasearch on the Safari error and found that safari has a bug created by the column-count class is used in my css, so to remove this issue I refactored my code for that section to use .col in the html structure rather than column-count in my css,
+- Reviewed the Upcoming Performance Cards, added a height attribute to the heading class to make them all consistent and then added some extra padding to the single line headings, with the custom class "one-line", to vertically center the text,
+- Changed the suggested miss spelling and ran a spell checker to find anymore in the README.md,
 
 ## Browser Testing
 
@@ -354,23 +365,12 @@ I tested the page on on the following desktop browers to check for accesability 
 
 - Chrome
 - Edge
-- IE 11
 - Firefox
-- Safari 
-- Opera
+- Safari (3rd party testing only)
 
 All of these browsers has no compatability issues.
 
-
 [Back to top](#nick-lennon---drummer)
-
-## Peer review
-
-I submitted my project for peer reviewing and this is the feedback that I recieved :
-- a
-- b 
-- c
-- d
 
 # Validation
 
