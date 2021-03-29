@@ -344,9 +344,20 @@ There were some spacing issues at the larger screen size so again I used **Media
 
 For real world testing, I used an external 1440px monitor to make sure the display was as expected.
 
-## 3rd Party Testing
+## Peer Review Testing
 
-I asked a selection of collegues and family members to acces the project on their devices and no compatability errors were reported. Feedback on the UI and UX was very positive.
+I asked a selection of collegues (via slack) and family members to access the project on their device:
+The feedback from this was:
+
+- Safari browser has a bug with the gallery section overflowing (Maggie Walsh),
+- The object spacing on the Upcoming Performance cards is not consistent (Dorimanolova),
+- Spelling errors in the README.md file (Matthew Elstone),
+
+To respond to this feedback I:
+
+- Did some reasearch on the Safari error and found that safari has a bug created by the column-count class is used in my css, so to remove this issue I refactored my code for that section to use .col in the html structure rather than column-count in my css,
+- Reviewed the Upcoming Performance Cards, added a height attribute to the heading class to make them all consistent and then added some extra padding to the single line headings, with the custom class "one-line", to vertically center the text,
+- Changed the suggested miss spelling and ran a spell checker to find anymore in the README.md,
 
 ## Browser Testing
 
@@ -354,23 +365,50 @@ I tested the page on on the following desktop browers to check for accesability 
 
 - Chrome
 - Edge
-- IE 11
 - Firefox
-- Safari 
-- Opera
+- Safari (3rd party testing only)
 
 All of these browsers has no compatability issues.
 
-
 [Back to top](#nick-lennon---drummer)
 
-## Peer review
+##User Stories Testing
 
-I submitted my project for peer reviewing and this is the feedback that I recieved :
-- a
-- b 
-- c
-- d
+As a **Potential Student**;
+- Immediatly upon loading the website I can see at least 1 link to more information about lessons, either in the Navigation Bar or the What I Do section,
+- After clicking that link I am shown an auto playing advert video with a written summary underneath if I don't want to watch the video,
+- Directly below the summary is a link for contacting the client, which when clicked will open up an email application with the email address and the lesson contact subject line already added,
+- To add support information, if they steh potential student needs persuading, there is the testimonial section and an example lesson video with a handout download for the user to enguage with,
+- Finally, at the bottom of the page, there is a contact call to action in the footer, again with an email link to make contact easy as possible.  
+- If the potential student wants to find more information on the clients experience, the about navigational button, which will take the user to the about-me.html page, is always located at the top of the page for quick access.
+- There is also a contact button on the fixed navigational bar, which opens up a modal with the contact information and another email contact link, which is accessable at all times, to add to the encouragement to contact the client.
+
+As a **Musician/Potential Collaborator**:
+- Immediatly upon loading the website you will see the About link in the Navigational Bar or the Live Performance and Studio Recording button in the What I Do section, which ever is more specific to the users requirements.
+- These links will either take you to:
+	- Live Performance - To see what performances are in the future and there is at least 1 video underneath if the user wants to see the clients abilities first hand,
+	- Studio Recordings - To allow ths user to see and listen to previous projects the client has worked on,
+	- About - A biography with career highlights to give the user background information on Nick Lennon,
+- All of these sections have a footer below them with a contact call to action which is linked to open up an email application with the email address and the contact subject line already added to make contact as easy as possible.
+- There is also a contact button on the fixed navigational bar, which opens up a modal with the contact information and another email contact link, which is accessable at all times, to add to the encouragement to contact the client.
+
+As a **Fan** who saw the client perform: 
+ - In the What I Do section, there is the  Live Performance button to take the user to more information about upcoming performances with a video to encourage the fan to buy tickets for a show with links to the ticket sellers pages,
+ - To see more images of Nick Lennon there is a gallery slightly down the main page, which they will pass when looking for the Upcoming Performances section,
+ - The studio recording button in the What I Do section will take them to the latest music released by Nick Lennon,
+ - Will always be able to find links to social media in the contact modal or in the footer.
+ - Can find more information about Nick Lennon in the About button which is located in the fixed position Navigation bar for perminant access.
+
+- As an **Agent,Recruiter or Potential Employer**:
+- - Immediatly upon loading the website you will see the About link in the Navigational Bar or the Live Performance and Studio Recording button in the What I Do section, which ever is more specific to the users requirements.
+- These links will either take you to:
+	- Live Performance - To see what performances are in the future and there is at least 1 video underneath if the user wants to see the clients abilities first hand,
+	- Studio Recordings - To allow ths user to see and listen to previous projects the client has worked on,
+	- About - A biography with career highlights to give the user background information on Nick Lennon with a **Basic CV download link** underneath,
+- All of these sections have a footer below them with a contact call to action which is linked to open up an email application with the email address and the contact subject line already added to make contact as easy as possible.
+- There is also a contact button on the fixed navigational bar, which opens up a modal with the contact information and another email contact link, which is accessable at all times, to add to the encouragement to contact the client.
+
+As a result of this testing I have found that all the different target demographics needs are met in this website while maintaing good UX principles.
 
 # Validation
 
