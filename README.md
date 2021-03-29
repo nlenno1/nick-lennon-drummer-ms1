@@ -285,8 +285,8 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 [Back to top](#nick-lennon---drummer)
 # Search Engine Optimization (SEO)
 
-Search engine optimization was used to allow the information on the website to be accessed better by search engines.
-To achieve this I used an XML Sitemap file and Google Search Console.
+Search engine optimization has been used to allow the information on the website to be accessed better by search engines.
+To achieve this I used Meta Description tags in the head element of each page to explain what the page is to search engines, I made sure all my links were crawlable and I used an XML Sitemap file and Google Search Console to allow search engines to understand the site better.
 
 To create an XML Sitemap you need to:
 
@@ -320,8 +320,6 @@ This console will allow you to monitor how your page is performing on Google's s
 - The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
 
 [Back to top](#nick-lennon---drummer)
-
-
 
 # Testing
 
@@ -466,7 +464,7 @@ The testing tools I used were:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - ![CSS Validator Results](assets/readme-assets/w3-css-validator-results.png)
 - [A11y](https://color.a11y.com/) to test site colors - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
-- [LightHouse](https://developers.google.com/web/tools/lighthouse) - ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
+- [LightHouse](https://developers.google.com/web/tools/lighthouse) - After testing with Lighthouse I added Meta Description data to each page and changed the Modal link to a button to remove a crawling error. These are the results after those changes. ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
 
 ### Results and outcomes
 
