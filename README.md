@@ -256,21 +256,7 @@ All imagery has alternative text to accomodate the use of screen readers or if t
 
 [Back to top](#nick-lennon---drummer)
 
-# Bugs and Issues
-
-- While creating the footer I had some issues with spacing and objexts being pushed where I didnt want them. After some research through the Bootstrap documentation, I realised this was because the .row class was adding extra padding so to remove this is used the .g-0 class to remove all the gutters.
-- Page layout was extending under the scroll bar on the right hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own seperate div which was causing the horixontal overflow.
-- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
-- Biography text was not wrapping round the Profile Picture. This was because they were in seperate Bootstrap .col classes so to fix this I put them in the same column and then floated the image to the right.
-- Album Covers were not displying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width dimishes.
-- Soundcloud Iframe were stealing focus when loaded. After some reasearch on the soundcloud website I learnt that the autoplay value was automatically set to true so I changed this value to false to fix the bug.
-- At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was to small. This bug also happened with the Logo in the NavBar which was resolved using the same method.
-- The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
-
-[Back to top](#nick-lennon---drummer)
-
 # Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - HTML5 - Programming Language
 - CSS3 - Programming Language
@@ -288,6 +274,41 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Figma](https://www.figma.com/) - Wireframes
 
 [Back to top](#nick-lennon---drummer)
+# Search Engine Optimisation (SEO)
+
+Search engine optimisation was used to allow the information on the website to be accessed better by search engines.
+To achive this I used an XML Sitemap file and Google Search Console.
+
+To create an XML Sitemap you need to:
+
+1. Go to [XML Sitemaps](https://www.xml-sitemaps.com/),
+2. Enter your websites URL where prompted,
+3. Click start,
+4. Download the XML file,
+5. Upload the XML file to the root of your repository,
+
+To optimize your website using Google Search Console you need to:
+
+1. Go to [Google Search Console](https://search.google.com/search-console/about),
+2. Enter your websites URL in the URL Prefix section,
+3. Download the generated file,
+4. Upload the file to the root of your repository,
+5. On the Google Search Console, click Verify,
+
+# Bugs and Issues
+
+- While creating the footer I had some issues with spacing and objexts being pushed where I didnt want them. After some research through the Bootstrap documentation, I realised this was because the .row class was adding extra padding so to remove this is used the .g-0 class to remove all the gutters.
+- Page layout was extending under the scroll bar on the right hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own seperate div which was causing the horixontal overflow.
+- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
+- Biography text was not wrapping round the Profile Picture. This was because they were in seperate Bootstrap .col classes so to fix this I put them in the same column and then floated the image to the right.
+- Album Covers were not displying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width dimishes.
+- Soundcloud Iframe were stealing focus when loaded. After some reasearch on the soundcloud website I learnt that the autoplay value was automatically set to true so I changed this value to false to fix the bug.
+- At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was to small. This bug also happened with the Logo in the NavBar which was resolved using the same method.
+- The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
+
+[Back to top](#nick-lennon---drummer)
+
+
 
 # Testing
 
@@ -451,14 +472,14 @@ This is the process I used to deploy my project:
 2. In the source section, for the branch dropdown menu, I selected "Master" and then clicked the save button.
 3. Once this process had been completed the website URL was displayed above the GitHub Pages section.
 
-This code can be clones or forked from the [GitHub repositary](https://github.com/nlenno1/milestone-project-1/).
+This code can be clones or forked from the [GitHub repository](https://github.com/nlenno1/milestone-project-1/).
 
 ## Forking the Repository
-When you fork the repository you create a copy of the original repositary on your own GitHub account to view and edit without effect the original.
+When you fork the repository you create a copy of the original repository on your own GitHub account to view and edit without effect the original.
 To Fork something you need to:
 
 1. Log into your GitHub account or create one.
-2. Open the [repositary](https://github.com/nlenno1/milestone-project-1/).
+2. Open the [repository](https://github.com/nlenno1/milestone-project-1/).
 3. Click the "Fork" button which is located on the right hand side of the screen just below your user icon.
 4. The fork should load and save to your GitHub account.
 
