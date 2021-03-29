@@ -9,25 +9,25 @@
 1. [Introduction](#introduction)
 2. [User Experience](#user-experience-(ux))
 3. [Development Planes](#development-planes)
- - [Strategy](#strategy)
- - [Scope](#scope)
- - [Structure](#structure)
- - [Skeleton](#skeleton)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+     - [Skeleton](#skeleton)
 4. [Design](#design)
 5. [Features](#features)
 6. [Technologies Used](#technologies-used)
 7. [Search Engine Optimization (SEO)](#search-engine-optimisation-(seo))
 8. [Bugs and Issues](#bugs-and-issues)
 9. [Testing](#testing)
- - [Device Testing](#device-testing)
- - [Peer Review Testing](#peer-review-testing)
- - [Browser Testing](#browser-testing)
- - [User Stories Testing](#user-stories-testing)
+    - [Device Testing](#device-testing)
+    - [Peer Review Testing](#peer-review-testing)
+    - [Browser Testing](#browser-testing)
+    - [User Stories Testing](#user-stories-testing)
 10. [Validation](#validation)
 11. [Deployment](#deployment)
 12. [Credits](#credits)
- - [Content](#content)
- - [Acknowledgments](#acknowledgments)
+    - [Content](#content)
+    - [Acknowledgments](#acknowledgments)
 
 ***
 
@@ -88,21 +88,21 @@ The website will focus on the following user attributes:
 
 The website needs to enable the **USER** to:
  
- Find information on:
- - Future Performances
- - Client's experience and previous work
- - Services that the client offers
- - How to contact the client
- - Signing up to the clients mailing list
+    Find information on:
+    - Future Performances
+    - Client's experience and previous work
+    - Services that the client offers
+    - How to contact the client
+    - Signing up to the clients mailing list
 
 The website needs to enable the **CLIENT** to:
  
- - Develop an online presence
- - Increase social media following
- - Showcase their portfolio
- - Attract new students
- - Encourage users to contact the client about future work
- - Promote future performances
+    - Develop an online presence
+    - Increase social media following
+    - Showcase their portfolio
+    - Attract new students
+    - Encourage users to contact the client about future work
+    - Promote future performances
 
 I performed a Importance-Viability analysis on the clients needs to ensure that they were both important enough to need to be taken into consideration with this project but also to ensure that they are viable to do with all factors considered. The results look like this:
 
@@ -119,28 +119,28 @@ A scope was defined to identify what needed to be included in the project to com
 
 **Content Requirements**
 
- - Images of the client and previous performances
- - Future live performance information with links to ticket sales
- - Video performance examples
- - Client biography with basic CV download option
- - Studio credits with links to preview and buy the recordings
- - Drum lesson promotion video
- - Description of drum lesson services
- - Drum lesson example video with accompanying PDF download
- - Call to action to get in contact regarding lessons and project inquires
- - Mailing list sign up form
- - Provides contact information
+    - Images of the client and previous performances
+    - Future live performance information with links to ticket sales
+    - Video performance examples
+    - Client biography with basic CV download option
+    - Studio credits with links to preview and buy the recordings
+    - Drum lesson promotion video
+    - Description of drum lesson services
+    - Drum lesson example video with accompanying PDF download
+    - Call to action to get in contact regarding lessons and project inquires
+    - Mailing list sign up form
+    - Provides contact information
 
 **Functionality Requirements**
 
- - Easy navigation to the required information
- - Quick loading of the website
- - Links to:
- - external websites for ticket sales and to purchase music
- - social media accounts
- - media sites (YouTube for other videos and sound cloud/Spotify to listen to music))
- - Mailing list sing up form
- - Links to social media accounts
+    - Easy navigation to the required information
+    - Quick loading of the website
+    - Links to:
+    - external websites for ticket sales and to purchase music
+    - social media accounts
+    - media sites (YouTube for other videos and sound cloud/Spotify to listen to music))
+    - Mailing list sing up form
+    - Links to social media accounts
  
 
 [Back to top](#nick-lennon---drummer)
@@ -329,35 +329,37 @@ For every section that I built in the project, I tested for responsiveness durin
 
 This is what I tested in each section:
 - NavBar
- - Logo link points to index.html
- - NavLinks point to the correct pages or sections
- - Active page icon colour changes page to page
- - NavLink icon hover effects icon colour
+    - Logo link points to index.html
+    - NavLinks point to the correct pages or sections
+    - Active page icon colour changes page to page
+    - NavLink icon hover effects icon colour
 - Footer
- - Site map links points to the correct pages or sections
- - Social links open a new tab in the browser and load the correct social media page
- - Mailing List Sign Up email entry bar and submit button validates for correctly formatted email addresses and the input in required before the data is sent.
+    - Site map links points to the correct pages or sections
+    - Social links open a new tab in the browser and load the correct social media page
+    - Mailing List Sign Up email entry bar and submit button validates for correctly formatted email addresses and the input in required before the data is sent.
 - index.html
- - What I Do buttons hover effects background colour
- - Gallery corner images change relative to number of columns
- - Upcoming performance links points to online ticket sales website and open in a new tab
- - Upcoming performance cards hover (at desktop breakpoint) changes background to venue image
- - Live performance video links to correct YouTube video and allows all users controls
+    - What I Do buttons hover effects background colour
+    - Gallery corner images change relative to number of columns
+    - Upcoming performance links points to online ticket sales website and open in a new tab
+    - Upcoming performance cards hover (at desktop breakpoint) changes background to venue image
+    - Live performance video links to correct YouTube video and allows all users controls
 - about-me.html
- - CV download link points to correct document, opens in a new tab and text colour is effected by hover
- - Career highlights containers and icons are effected by hover
- - Studio credits album images have dropped down animation effected by hover
- - Soundcloud Iframes point to correct soundcloud songs and allows full user interaction expected
+    - CV download link points to correct document, opens in a new tab and text colour is effected by hover
+    - Career highlights containers and icons are effected by hover
+    - Studio credits album images have dropped down animation effected by hover
+    - Soundcloud Iframes point to correct soundcloud songs and allows full user interaction expected
 - lessons.html
- - Lessons video advert plays automatically, muted and does not loop
- - Example lesson video links to correct YouTube video and allows full user interaction expected
- - CV download link points to correct document, opens in a new tab and text colour is effected by hover
+    - Lessons video advert plays automatically, muted and does not loop
+    - Example lesson video links to correct YouTube video and allows full user interaction expected
+    - CV download link points to correct document, opens in a new tab and text colour is effected by hover
 
 [Back to top](#nick-lennon---drummer)
 
 ## Device Testing
 
-### Mobile Testing on the **Galaxy Fold** with its **280px screen width** did cause some issues when compressing elements down to that width, for example the What I Do Nav buttons were too wide and the NavBar was spreading onto 2 lines. 
+### Mobile Testing 
+
+Testing on the **Galaxy Fold** with its **280px screen width** did cause some issues when compressing elements down to that width, for example the What I Do Nav buttons were too wide and the NavBar was spreading onto 2 lines. 
 To fix any of these issues I created a max-width attribute of the original size in pixels and then added a width attribute of a percentage in the element's CSS. This meant that when the element was too large it would scale down to the percentage of the space it had however, it would not get too big at the larger screen sizes.
 
 To test the website at the **Mobile breakpoint**, I focused on using the **Iphone 5/SE (320px)** for the **smaller phones** and the **Iphone 6/7/8 Plus (414px)** for the **larger phones**.
@@ -514,7 +516,7 @@ To clone the repository, you first need to:
 # Credits
 
 Code snippets
-- NavBar and Modal template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) and customized
+- NavBar and Modal template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) to be modified and customized
 
 Resources
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Code fundamental learning platform
