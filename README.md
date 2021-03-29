@@ -464,7 +464,7 @@ The testing tools I used were:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/) - ![CSS Validator Results](assets/readme-assets/w3-css-validator-results.png)
 - [A11y](https://color.a11y.com/) to test site colors - ![A11y Results](assets/readme-assets/a11y-test-results.png)
 - [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - ![Google Mobile Results](assets/readme-assets/google-mobile-test-results.png)
-- [LightHouse](https://developers.google.com/web/tools/lighthouse) - After testing with Lighthouse I added Meta Description data to each page and changed the Modal link to a button to remove a crawling error. These are the results after those changes. ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
+- [LightHouse](https://developers.google.com/web/tools/lighthouse) - After testing with Lighthouse I added Meta Description data to each page and changed the Modal link to a button to remove a crawling error and improve SEO. I also added the rel="noopener" class to all links opening outside the website to improve security. These are the results after those changes. ![Lighthouse Report](assets/readme-assets/lighthouse-reportpng.png)
 
 ### Results and outcomes
 
