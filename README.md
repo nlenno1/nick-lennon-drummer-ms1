@@ -318,9 +318,9 @@ This console will allow you to monitor how your page is performing on Google's s
 
 # Bugs and Issues
 
-- While creating the footer I had some issues with spacing and elements being pushed where I didn't want them. After some research through the Bootstrap documentation, I realised this was because the.row class was adding extra padding so to remove this is used the g-0 class to remove all the gutters.
+- While creating the footer I had some issues with spacing and elements being pushed where I didn't want them. After some research through the Bootstrap documentation, I realised this was because the row and col classes were adding extra padding so I used the g-0 class to remove all the gutters.
 - Page layout was extending under the scroll bar on the right-hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own separate div which was causing the horizontal overflow.
-- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
+- Social media links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
 - Biography text was not wrapping round the Profile Picture. This was because they were in separate Bootstrap col classes so to fix this I put them in the same column and then floated the image to the right.
 - Album Covers were not displaying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width diminishes.
 - Soundcloud Iframe were stealing focus when loaded. After some research on the sound cloud website I learnt that the auto play value was automatically set to true, so I changed this value too false to fix the bug.
@@ -416,7 +416,7 @@ I tested the page on the following desktop browsers to check for accessibility a
 - Firefox
 - Safari (3rd party testing only)
 
-All of these browsers has no compatibility issues.
+All of these browsers have no compatibility issues. There was a bug in the gallery section on Safari but it has been fized. For more information see [Bugs and Issues](#bugs-and-issues) or [Peer Review Testing](#peer-review-testing).
 
 [Back to top](#nick-lennon---drummer)
 
@@ -477,7 +477,7 @@ The testing tools I used were:
 
 ### Results and outcomes
 
-All final tests produced good to excellent results apart from a few warnings from the HTML validator about not having section titles. 
+All final tests produced good to excellent results apart from a few warnings from the HTML validator about some sections not having section titles. 
 
 The sections in question contain:
 - Lesson promotions video - which has a title in the auto playing video, 
