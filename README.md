@@ -278,6 +278,7 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 - [Git Pod](https://gitpod.io/) - IDE (Integrated Development Environment)
 - [Git](https://git-scm.com/) - Version Control Tool
 - [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
+- [Code Institute GitPod Template](https://github.com/Code-Institute-Org/gitpod-full-template) - Provides GitPod extensions to help with code production
 - [Google Chrome Development Tools](https://developer.chrome.com/docs/devtools/) - Development Tools
 - [Compress PNG](https://compresspng.com/) - Image Condenser
 - [Balsamic](https://balsamiq.com/) - Wire frames
