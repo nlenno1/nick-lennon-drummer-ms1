@@ -35,7 +35,7 @@
 
 This website has been designed for the **Drummer Nick Lennon** (from here on will be referred to as the “client”) who is a musician who offers services, including **live music performance, recording sessions and tutoring**, to all who have an interest in creating, listening to or learning how to play live music. 
 
-This website is based on my own previous work, with some fictitious information added as example content, as it is an area I am very familiar with and completely understand the needs of the client and the user.
+This website is based on my own previous work, with some fictional information added as example content, as it is an area I am very familiar with and completely understand the needs of the client and the user.
 
 This is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute. The main requirements of this project are to create a responsive and static website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
@@ -278,6 +278,7 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 - [Git Pod](https://gitpod.io/) - IDE (Integrated Development Environment)
 - [Git](https://git-scm.com/) - Version Control Tool
 - [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
+- [Code Institute GitPod Template](https://github.com/Code-Institute-Org/gitpod-full-template) - Provides GitPod extensions to help with code production
 - [Google Chrome Development Tools](https://developer.chrome.com/docs/devtools/) - Development Tools
 - [Compress PNG](https://compresspng.com/) - Image Condenser
 - [Balsamic](https://balsamiq.com/) - Wire frames
@@ -318,9 +319,9 @@ This console will allow you to monitor how your page is performing on Google's s
 
 # Bugs and Issues
 
-- While creating the footer I had some issues with spacing and elements being pushed where I didn't want them. After some research through the Bootstrap documentation, I realised this was because the.row class was adding extra padding so to remove this is used the.g-0 class to remove all the gutters.
+- While creating the footer I had some issues with spacing and elements being pushed where I didn't want them. After some research through the Bootstrap documentation, I realised this was because the row and col classes were adding extra padding so I used the g-0 class to remove all the gutters.
 - Page layout was extending under the scroll bar on the right-hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own separate div which was causing the horizontal overflow.
-- Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
+- Social media links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
 - Biography text was not wrapping round the Profile Picture. This was because they were in separate Bootstrap col classes so to fix this I put them in the same column and then floated the image to the right.
 - Album Covers were not displaying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width diminishes.
 - Soundcloud Iframe were stealing focus when loaded. After some research on the sound cloud website I learnt that the auto play value was automatically set to true, so I changed this value too false to fix the bug.
@@ -416,7 +417,7 @@ I tested the page on the following desktop browsers to check for accessibility a
 - Firefox
 - Safari (3rd party testing only)
 
-All of these browsers has no compatibility issues.
+All of these browsers have no compatibility issues. There was a bug in the gallery section on Safari but it has been fized. For more information see [Bugs and Issues](#bugs-and-issues) or [Peer Review Testing](#peer-review-testing).
 
 [Back to top](#nick-lennon---drummer)
 
@@ -477,7 +478,7 @@ The testing tools I used were:
 
 ### Results and outcomes
 
-All final tests produced good to excellent results apart from a few warnings from the HTML validator about not having section titles. 
+All final tests produced good to excellent results apart from a few warnings from the HTML validator about some sections not having section titles. 
 
 The sections in question contain:
 - Lesson promotions video - which has a title in the auto playing video, 
@@ -541,7 +542,6 @@ All the images that were used during the development of this site are either ori
 Drumming related images:
 - [Live Performances Background](https://pixabay.com/photos/drums-live-dancing-entertainment-755530/)
 - [Lessons Background](https://pixabay.com/photos/drummer-drum-set-drums-music-5229705/)
-- [Spare Background](https://pixabay.com/photos/drums-drum-pool-snare-drum-2778190/)
 
 Venue images:
 - [Park](https://pixabay.com/photos/concert-park-venue-music-artist-4634009/)
@@ -567,6 +567,6 @@ Additional guidance taken from  viewing;
  - https://github.com/rebeccatraceyt/KryanLive
  - https://github.com/JimLynx/CI-MS1-Explore-Ireland
 
-A big thank you to my ** CI mentor** and the **CI Slack Community** who have offered support and encouragement throughout the building of this project.
+A big thank you to my **CI mentor** and the **CI Slack Community** who have offered support and encouragement throughout the building of this project.
 
 [Back to top](#nick-lennon---drummer)
