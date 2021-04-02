@@ -965,7 +965,7 @@ footer h5 {
 
 /*----------------------------- Large Tablet Queries --*/
 
-@media(min-width:767px) {
+@media(min-width:768px) {
 	/*-- Bio Media Queries --*/
 	#bio-section {
 		padding: 3rem 2rem;
@@ -977,26 +977,10 @@ footer h5 {
 	/*-- Lesson Overview Queries --*/
 	.lessons-overview-container {
 		padding: 20px;
-	}
-}
-
-@media(min-width:768px) {
-	/*--Navbar Queries--*/
-	.navbar-nav {
+    }
+    /*--Navbar Queries--*/
+    .navbar-nav {
 		width: 33.33vw;
-	}
-	/*--Gallery Queries--*/
-	.sm-tr-corner {
-		border-radius: 0;
-	}
-	.md-tr-corner {
-		border-radius: 0 10px 0 0;
-	}
-	.sm-br-corner {
-		border-radius: 0;
-	}
-	.md-br-corner {
-		border-radius: 0 0 10px 0;
 	}
 }
 
@@ -1026,16 +1010,16 @@ footer h5 {
 		padding: 0 16px 64px 16px;
 		margin: 0;
 	}
-	.md-tr-corner {
+	.sm-tr-corner {
 		border-radius: 0;
 	}
-	.lg-tr-corner {
+	.md-tr-corner {
 		border-radius: 0 10px 0 0;
 	}
-	.md-br-corner {
+	.sm-br-corner {
 		border-radius: 0;
 	}
-	.lg-br-corner {
+	.md-br-corner {
 		border-radius: 0 0 10px 0;
 	}
 	.gallery-container h2 {
@@ -1215,6 +1199,19 @@ footer h5 {
 	#subtitle-overlay {
 		bottom: 24%;
 		left: 53%;
+    }
+    /*--Galley Queries--*/
+    .md-tr-corner {
+		border-radius: 0;
+	}
+	.lg-tr-corner {
+		border-radius: 0 10px 0 0;
+	}
+	.md-br-corner {
+		border-radius: 0;
+	}
+	.lg-br-corner {
+		border-radius: 0 0 10px 0;
 	}
 	/*-- Bio Media Queries --*/
 	#bio-section {
