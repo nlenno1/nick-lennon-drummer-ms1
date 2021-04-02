@@ -7,7 +7,7 @@
 # Table of Contents
 
 1. [Introduction](#introduction)
-2. [User Experience](#user-experience-(ux))
+2. [User Experience (UX)](#user-experience)
 3. [Development Planes](#development-planes)
     - [Strategy](#strategy)
     - [Scope](#scope)
@@ -16,7 +16,7 @@
 4. [Design](#design)
 5. [Features](#features)
 6. [Technologies Used](#technologies-used)
-7. [Search Engine Optimization (SEO)](#search-engine-optimisation-(seo))
+7. [Search Engine Optimization (SEO)](#search-engine-optimization)
 8. [Bugs and Issues](#bugs-and-issues)
 9. [Testing](#testing)
     - [Device Testing](#device-testing)
@@ -41,7 +41,7 @@ This is the first of four Milestone Projects that make up the Full Stack Web Dev
 
 [Back to top](#nick-lennon---drummer)
 
-# User Experience (UX) 
+# User Experience
 ### Project Goals
 - To produce a well-designed and engaging website to advertise all services in the most efficient way possible
 - To make it easy for users to navigate and access all the information they need.
@@ -288,7 +288,7 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 - [Google Search Console](https://search.google.com/search-console/about) - Search Engine Optimization
 
 [Back to top](#nick-lennon---drummer)
-# Search Engine Optimization (SEO)
+# Search Engine Optimization
 
 Search engine optimization has been used to allow the information on the website to be accessed better by search engines.
 To achieve this I used; 
