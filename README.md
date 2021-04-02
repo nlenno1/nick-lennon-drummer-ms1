@@ -33,9 +33,9 @@
 
 # Introduction
 
-This website has been designer for the **Drummer Nick Lennon** (from here on will be referred to as the “client”) who is a musician who offers services, including **live music performance, recording sessions and tutoring**, to all clients who have an interest in creating, listening to or learning how to play live music. 
+This website has been designed for the **Drummer Nick Lennon** (from here on will be referred to as the “client”) who is a musician who offers services, including **live music performance, recording sessions and tutoring**, to all who have an interest in creating, listening to or learning how to play live music. 
 
-This website is based on my own previous work, with some fictitious information added as example content, before taking up coding as it is an area I am very familiar with and completely understand the needs of the client and the user.
+This website is based on my own previous work, with some fictitious information added as example content, as it is an area I am very familiar with and completely understand the needs of the client and the user.
 
 This is the first of four Milestone Projects that make up the Full Stack Web Development Program at The Code Institute. The main requirements of this project are to create a responsive and static website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
@@ -136,11 +136,11 @@ A scope was defined to identify what needed to be included in the project to com
     - Easy navigation to the required information
     - Quick loading of the website
     - Links to:
-    - external websites for ticket sales and to purchase music
-    - social media accounts
-    - media sites (YouTube for other videos and sound cloud/Spotify to listen to music))
-    - Mailing list sing up form
-    - Links to social media accounts
+	    - external websites for ticket sales and to purchase music
+	    - social media accounts
+	    - media sites (YouTube for other videos and sound cloud/Spotify to listen to music))
+	    - Mailing list sing up form
+	    - Links to social media accounts
  
 
 [Back to top](#nick-lennon---drummer)
@@ -149,7 +149,7 @@ A scope was defined to identify what needed to be included in the project to com
 
 ## Structure
 
-This website is organised using a **Tree** structure hire racy to reduce complexity and make user navigation easier while allowing for a small amount of user exploring to discover information they didn't initially come to the website for.
+This website is organised using a **Tree** structure hierarchy to reduce complexity and make user navigation easier while allowing for a small amount of user exploring to discover information they didn't initially come to the website for.
 
 Here is a diagram of the page structures.
 
@@ -162,7 +162,7 @@ Here is a diagram of the page structures.
 3.	Gallery — To provide images of the client and previous performances to encourage them to see the client live.
 4.	Future Performances with Video Performance Example — *(linked to from What I Do)* Advertises future performances, with direct links to ticket sales, and shows an example of a live show to encourage new visitors to buy tickets. These elements have been places at the bottom as fans coming looking for new performances to see will also see the social links in the Footer as the screen size from the top of Future Performances includes the footer. Using a link from YouTube will also direct the user to videos of other performances and shows increasing social media engagement.
 	
-**about.html**. Decided on element order of:
+**about.html** *(linked from the NavBar)*. Decided on element order of:
 1.	Image, Bio and Career Highlights (with CV download link) - this is what users that selected the about me page will be looking for primarily with the download link for the Agent, Recruiter or Potential Employer demographic.
 2.	Studio credits - *(linked to from What I Do)* acts as evidence for the bio and when users are interested in recording services, they will also want to know about the background of the client. All album covers have links to the album to listen and purchase.
 
@@ -179,9 +179,10 @@ In the footer **(linked to from the "Contact" in the Header element)** of every 
 - Mailing list sign up form
 - Site map (desktop only)
 
+Having all the contact information at the bottom of the page means that when the user has finished reading what they want to, they are always given the option to get in touch if they have further questions or follow the clients social media accounts and sign up to the mailing list if they want updates.
+To add to this, having the site map in the footer means that it allows some user exploration to find new information around the website.
+
 [Back to top](#nick-lennon---drummer)
-
-
 
 ## Skeleton
 
@@ -213,7 +214,8 @@ Lessons Page (Figma):
 # Design
 
 ## Colour Scheme
-The main colours used throughout the website are a mixture of Blue primarily with Black, Silver, White and Peach highlights.
+The main colours used throughout the website are a mixture of Blue primarily (#5C93AE, #1E5671 and #0D3B51) with Light Orange as the contrast color (#FFDFBA) and Black, Silver, White highlights.
+I used the original colour of Blue Green (#5C93AE) with the [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/) to select complimentary colours for this project.
 
 The chosen colour scheme is to give the website a modern and friendly feel that will appeal to the wide demographic.
 
@@ -229,37 +231,37 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 
 ### Header 
 - Company logo - establishes the website identity and doubles as the home button for only the phone breakpoint
-- Navbar links with icons provides easy navigation to the desired information.
-- Fix Navbar to the top of the screen to allow quick navigation at all times 
-- Contact Modal to display all needed contact information quickly and giving the user a quick way to send the client an email.
+- Navbar links, with icons, provide easy navigation to any desired information.
+- Having the Navbar fixed to the top of the screen, allows quick navigation at all times.
+- Contact Modal to display all contact information quickly, giving the user a quick way to send the client an email.
 ### Footer
-- Footer reinforces the contact information to support the Contact Modal (until contact page is implemented on next release)
+- Footer reinforces the contact information to support the Contact Modal (until contact page is implemented on next release).
 - Footer email address is a link to open the users email software with a preformed email ready to edit and send to make contact easier.
-- Sign Up For Newsletter (not currently linked to a mailing server but it will be implemented on next release)
-- Site Map (only on Desktop breakpoint) to allow easier access to specific information and some exploration
+- Sign Up For Newsletter (not currently linked to a mailing server but it will be implemented on next release).
+- Site Map (only on Desktop breakpoint) to allow easier access to specific information and some exploration.
 ### index.html
-- Hero Image - A strong image to welcome the user to the website while confirming where the user has arrived at
-- What I Do - quick navigation to the secondary topics of information
-- Gallery - Gives the user a brief visual overview of the clients experience
-- Upcoming Performances - Future performance details with links to ticket sales websites with a hover feature at the desktop breakpoint to reveal an image of the performance venue behind the card
-- Live Performance Video - showcases a previous performance to encourage the user to buy tickets
+- Hero Image - A strong image to welcome the user to the website while confirming what the website is about.
+- What I Do - quick navigation to the secondary topics of information.
+- Gallery - Gives the user a brief visual overview of the clients experience.
+- Upcoming Performances - Future performance details, provided on cards, with links to the ticket sales websites and background images of the performance venues, with a hover feature to provide a solid background behind the text to make it stand out more.
+- Live Performance Video - showcases previous performances for entertainment and to encourage the user to buy tickets.
 ### about-me.html
-- About Me - Profile picture with biography to give in depth information about the clients background in their field
-- Career highlights - A timeline element to give the user an overview of the important points from the clients career if they don't want to read the biography
-- Studio Credits - Cover art of previous recording work. Each images will link to Spotify to allow the user to listen to the music. Images have a hover feature to show the name of the song for the desktop breakpoint. Audio samples are also available underneath the album images using Sound cloud.
-- Basic CV Download - A stripped down CV PDF download to allow recruiters to retain a copy of it for future reference
+- About Me - Profile picture with biography to give in depth information about the client's background and experience.
+- Career highlights - A timeline element to give the user an overview of the important points from the clients career if they don't want to read the entire biography.
+- Studio Credits - Cover art of previous recording work. Each image will link to Spotify to allow the user to listen to the music. Images have a hover feature to show the name of the song for the desktop breakpoint. Some different audio samples are also available underneath the album images using Soundcloud, which also provides another link for the user to discover more of the clients work.
+- Basic CV Download - A stripped down CV PDF download to allow recruiters to retain a copy of it for future reference.
 ### lessons.html
 - Lesson Video Advert - A short advert for the clients tutoring service. The video plays but muted to draw the user in but all the important information is displayed on the screen in text.
 - Lessons Overview - A revision of the main points from the video with clear icons to enable faster understanding with the contact email link to facilitate quick messaging if the user wants to get in touch.
-- Testimonials - Short statements from current pupils or pupil's parents to persuade users to sign up for a lesson
-- Example lesson - A short video lesson to act as an example of the clients services with a brief introduction and a download link to supporting documentation
+- Testimonials - Short testimonial statements from current pupils or pupil's parents to persuade users to sign up for a lesson.
+- Example lesson - A short video lesson to act as an example of the clients services with a brief introduction and a download link to supporting documentation.
 
 ## Features Left to Implement
-* Why take Up Drumming - A section to inform the user about the many positive aspects to learning how to play the drums
-* Endorses Section - A section to inform the user about what products the client uses therefore encouraging the potential student or fellow musician to use the same product which could lead to opening avenues for company collaborations
-* Contact page - A new page with several contact options
-* Mailing server - For the mailing list sing up and subscription to newsletter
-* Online store - To give the client the ability to sell merchandise and music directly to the user
+* Why take Up Drumming - A section to inform the user about the many positive aspects to learning how to play the drums.
+* Endorses Section - A section to inform the user about what products the client uses therefore encouraging the potential student or fellow musician to use the same product which could lead to opening avenues for company collaborations.
+* Contact page - A new page with several contact options.
+* Mailing server - For the mailing list sing up and subscription to newsletter.
+* Online store - To give the client the ability to sell merchandise and music directly to the user.
 
 [Back to top](#nick-lennon---drummer)
 
@@ -272,6 +274,7 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 - [Font Awesome](https://fontawesome.com/) - Icons Import
 - [Phosphor Icons](https://phosphoricons.com/) - Icons Import
 - [Google Fonts](https://fonts.google.com/) - Typography Import
+- [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/) - Colour Scheme Design
 - [Git Pod](https://gitpod.io/) - IDE (Integrated Development Environment)
 - [Git](https://git-scm.com/) - Version Control Tool
 - [Github](https://github.com/) - Cloud based hosting service to manager my Git Repositories
@@ -286,7 +289,10 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 # Search Engine Optimization (SEO)
 
 Search engine optimization has been used to allow the information on the website to be accessed better by search engines.
-To achieve this I used Meta Description tags in the head element of each page to explain what the page is to search engines, I made sure all my links were crawlable and I used an XML Sitemap file and Google Search Console to allow search engines to understand the site better.
+To achieve this I used; 
+- Meta Description tags in the head element of each page to explain what the page is to search engines, 
+- Crawlable Links (which means every anchor tag having a href attribute that is a URL),
+- An XML Sitemap file and Google Search Console to allow search engines to understand the site better.
 
 To create an XML Sitemap you need to:
 
@@ -313,11 +319,12 @@ This console will allow you to monitor how your page is performing on Google's s
 - While creating the footer I had some issues with spacing and elements being pushed where I didn't want them. After some research through the Bootstrap documentation, I realised this was because the.row class was adding extra padding so to remove this is used the.g-0 class to remove all the gutters.
 - Page layout was extending under the scroll bar on the right-hand side of the screen but after some research on [Stack Overflow](https://stackoverflow.com/), suggestions from the Slack Community, some tutor guidance and the [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) I found an instance where I had not put an Image in its own separate div which was causing the horizontal overflow.
 - Socials links were creating a 404 page not found error. After reviewing the code, I realised that I had forgotten to include the "https://" part of the URL.
-- Biography text was not wrapping round the Profile Picture. This was because they were in separate Bootstrap.col classes so to fix this I put them in the same column and then floated the image to the right.
+- Biography text was not wrapping round the Profile Picture. This was because they were in separate Bootstrap col classes so to fix this I put them in the same column and then floated the image to the right.
 - Album Covers were not displaying as 2 rows of 3 at desktop. To fix this I reduced the padding around them and reduced their max-width, still allowing them to shrink as the screen width diminishes.
-- Sound cloud Iframe were stealing focus when loaded. After some research on the sound cloud website I learnt that the auto play value was automatically set to true, so I changed this value too false to fix the bug.
+- Soundcloud Iframe were stealing focus when loaded. After some research on the sound cloud website I learnt that the auto play value was automatically set to true, so I changed this value too false to fix the bug.
 - At the smallest breakpoint (280px - Galaxy Fold) the What I Do buttons where pressed together so to remedy this I changed their width to 95% and then their max width to 85px (the original width value) to allow them to shrink if the space was too small. This bug also happened with the Logo in the NavBar which was resolved using the same method.
 - The text on the Bounce to Bottom class p element over the Album Covers appearing before animation could take effect. To correct this I changed the text color on the p element to rgba(0, 0, 0, 0) so it was invisible and the hvr-bounce-to-bottom class changed the text colour when it was activated and not before.
+- Gallery was overflowing in Safari browser (Peer Review Testing). I did some research on this error and found that safari has a bug created by the column-count class that I used in my CSS, so to remove this bug, I refactored my code for that section to use .col in the HTML structure rather than column-count in my CSS,
 
 [Back to top](#nick-lennon---drummer)
 
@@ -327,29 +334,29 @@ For every section that I built in the project, I tested for responsiveness durin
 
 This is what I tested in each section:
 - NavBar
-    - Logo link points to index.html
-    - NavLinks point to the correct pages or sections
-    - Active page icon colour changes page to page
-    - NavLink icon hover effects icon colour
+    - Logo link points to index.html,
+    - NavLinks point to the correct pages or sections,
+    - Active page icon colour changes page to page,
+    - NavLink icon hover effects icon colour,
 - Footer
-    - Site map links points to the correct pages or sections
-    - Social links open a new tab in the browser and load the correct social media page
-    - Mailing List Sign Up email entry bar and submit button validates for correctly formatted email addresses and the input in required before the data is sent.
+    - Site map links points to the correct pages or sections,
+    - Social links open a new tab in the browser and load the correct social media page,
+    - Mailing List Sign Up email entry bar and submit button validates for correctly formatted email addresses and the input in required before the data is sent,
 - index.html
-    - What I Do buttons hover effects background colour
-    - Gallery corner images change relative to number of columns
-    - Upcoming performance links points to online ticket sales website and open in a new tab
-    - Upcoming performance cards hover (at desktop breakpoint) changes background to venue image
-    - Live performance video links to correct YouTube video and allows all users controls
+    - Hovering over the What I Do buttons effects their background colour,
+    - Gallery images corner radii change relative to number of columns,
+    - Upcoming performance links points to online ticket sales website and open in a new tab,
+    - Upcoming performance cards hover, when at full size, changes background to solid colour,
+    - Live performance video links to correct YouTube video and allows all users controls,
 - about-me.html
-    - CV download link points to correct document, opens in a new tab and text colour is effected by hover
-    - Career highlights containers and icons are effected by hover
-    - Studio credits album images have dropped down animation effected by hover
-    - Soundcloud Iframes point to correct soundcloud songs and allows full user interaction expected
+    - CV download link points to correct document, opens in a new tab and text colour is effected by hover,
+    - Career highlights containers and icons are effected by hover,
+    - Studio credits album images have dropped down animation effected by hover, at desktop breakpoint only,
+    - Soundcloud Iframes point to correct Soundcloud songs and allows full user interaction as expected,
 - lessons.html
-    - Lessons video advert plays automatically, muted and does not loop
-    - Example lesson video links to correct YouTube video and allows full user interaction expected
-    - CV download link points to correct document, opens in a new tab and text colour is effected by hover
+    - Lessons video advert plays automatically, muted and does not loop,
+    - Example lesson video links to correct YouTube video and allows full user interaction expected,
+    - CV download link points to correct document, opens in a new tab and text colour is effected by hover,
 
 [Back to top](#nick-lennon---drummer)
 
@@ -364,7 +371,7 @@ To test the website at the **Mobile breakpoint**, I focused on using the **Iphon
 All other mobile breakpoints fit into this range of screen sizes, apart from the Galaxy Fold, therefore felt it was a good range to work with.
 As this project was designed mobile first the were very few mobile only bugs or issues as it was the first breakpoint to be built.
 
-I also used my own **Samsung Galaxy S10 (360px)** for the mobile device testing, as this is roughly the median of the range I tested on Dev Tools, to check that all elements were accessible when used in the real world, away from Google Chrome Dev Tools.
+I also used my own **Samsung Galaxy S10 (360px)** for the mobile device testing, as this is roughly the median of the range I tested on Dev Tools, to check that all elements were accessible when used in the real world.
 
 ### Tablet Testing
 To test the project on a tablet, I used the **Ipad (768px)** breakpoint on Google Chrome Dev Tools as it is a very generic size and has the tablet shroud on it to help with scaling the elements.
@@ -392,9 +399,9 @@ The feedback from this was:
 
 To respond to this feedback I:
 
-- Did some research on the Safari error and found that safari has a bug created by the column-count class is used in my CSS, so to remove this issue I refactored my code for that section to use.col in the HTML structure rather than column-count in my CSS,
+- Did some research on the Safari error and found that safari has a bug created by the column-count class is used in my CSS, so to remove this issue I refactored my code for that section to use .col in the HTML structure rather than column-count in my CSS,
 - Reviewed the Upcoming Performance Cards, added a height attribute to the heading class to make them all consistent and then added some extra padding to the single line headings, with the custom class "one-line", to vertically center the text,
-- Changed the suggested miss spelling and ran a spell checker to find anymore in the README.md,
+- Changed the suggested miss spelling and ran a spell checker to find any more in the README.md,
 
 [Back to top](#nick-lennon---drummer)
 
@@ -479,18 +486,16 @@ The sections in question contain:
 
 # Deployment
 
-All code was written on Gitpod, an online IDE.
+All my code was written using [Gitpod](https://www.gitpod.io/), an online IDE, and then pushed to a repository which was stored on my [Gitpod account](https://github.com/nlenno1/).
 
 This project is deployed on GitHub Pages. 
-All my code was written using [Gitpod](https://www.gitpod.io/) and then pushed to a repository which was stored on my [Gitpod account](https://github.com/nlenno1/).
-
 This is the process I used to deploy my project:
 
 1. In my Github Repository I selected the settings tab and scrolled down to the GitHub Pages section.
 2. In the source section, for the branch drop down menu, I selected "Master" and then clicked the save button.
 3. Once this process had been completed the website URL was displayed above the GitHub Pages section.
 
-This code can be clones or forked from the [GitHub repository](https://github.com/nlenno1/milestone-project-1/).
+This code can be cloned or forked from the [GitHub repository](https://github.com/nlenno1/milestone-project-1/).
 
 ## Forking the Repository
 When you fork the repository you create a copy of the original repository on your own GitHub account to view and edit without effect the original.
@@ -514,7 +519,7 @@ To clone the repository, you first need to:
 # Credits
 
 Code snippets
-- NavBar and Modal template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) to be modified and customized
+- NavBar and Modal template taken from [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/components/navbar/) to be havily modified and customized.
 
 Resources
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Code fundamental learning platform
@@ -523,7 +528,6 @@ Resources
 - [CSS-Tricks](https://css-tricks.com/) - Learning and bug fixing resource
 - [Stack Overflow](https://stackoverflow.com/) - Bug fixing research
 - [Color Scheme Designer](http://colorschemedesigner.com/csd-3.5/) - Inspiration for colour scheme
-
 
 ## Content
 
@@ -556,11 +560,11 @@ Structurally redesigned Gallery layout inspiration from Love Running Mini-Projec
 
 Read me template used to produce this documentation is from [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
 
-Additional guidance taken from 
+Additional guidance taken from  viewing;
  - https://github.com/nemixu/Milestone1
  - https://github.com/rebeccatraceyt/KryanLive
  - https://github.com/JimLynx/CI-MS1-Explore-Ireland
 
-A big thank you to my **mentor** and the **CI Slack Community** who have offered support and encouragement over the building of this project.
+A big thank you to my ** CI mentor** and the **CI Slack Community** who have offered support and encouragement throughout the building of this project.
 
 [Back to top](#nick-lennon---drummer)
