@@ -282,6 +282,8 @@ All imagery has alternative text to accommodate the use of screen readers or if 
 - [Compress PNG](https://compresspng.com/) - Image Condenser
 - [Balsamic](https://balsamiq.com/) - Wire frames
 - [Figma](https://www.figma.com/) - Wire frames
+- [HTML Formatter](https://www.freeformatter.com/html-formatter.html#ad-output) - Formatting HTML Code
+- [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html) - Beautifying CSS Code
 - [XML Sitemaps](https://www.xml-sitemaps.com/) - Search Engine Optimization
 - [Google Search Console](https://search.google.com/search-console/about) - Search Engine Optimization
 
