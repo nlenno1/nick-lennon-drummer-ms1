@@ -2,7 +2,7 @@
 
 ![Preview](assets/readme-assets/website-mockup-min.png)
 
-[Link to the Live Project](https://nlenno1.github.io/milestone-project-1/)
+[Link to the Live Project](https://nlenno1.github.io/nick-lennon-drummer-ms1/)
 
 # Table of Contents
 
